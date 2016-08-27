@@ -1,0 +1,34 @@
+<h1>Contact form</h1>
+
+<div>
+  <%= form_for @contact do |f| %>
+  <%= f.label :name %><br>
+  <%= f.text_field :name, requested: true %>
+
+  <br>
+
+  <%= f.label :email %><br>
+  <%= f.text_field :email, requested: true %>
+
+  <br>
+
+  <%= f.label :about %><br>
+  <%= f.text_field :about, requested: true %>
+
+  <br>
+
+  <%= f.label :message %><br>
+  <%= f.text_area :message, as: :text %>
+
+  <br>
+
+  <div class='hidden'>
+    <%= f.label :nickname %><br>
+    <%= f.text_field :nickname, hint: 'остави това поле празно' %>
+  </div>
+
+  <br>
+  <%= f.submit 'Изпрати' %>
+  <% end %>
+
+</div>
