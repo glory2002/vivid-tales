@@ -1,0 +1,139 @@
+.contact-bg-div{
+  box-shadow: 0 0 0 21px rgba(255, 255, 255, 1);
+  border-radius: 12px;
+  border-style: dashed;
+  border-color: #fc4f00;
+  background-color: rgba(255, 255, 255, 1);
+  margin: auto;
+  margin-top: 230px;
+  width: 1100px;
+  max-width: 100%;
+  height: 650px;
+  max-height: 100%;
+  /*display: none;*/
+}
+
+.adress-map-div{
+  width: 50%;
+  float: left;
+  margin-left: 4%;
+}
+
+#googleMap{
+  margin-top: 8%;
+  border-radius: 12px;
+  /*box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);*/
+  border: solid #dbd9d9 2px;
+}
+.form-text{
+  font-family: Open Sans;
+  font-size: 16px;
+  position: relative;
+    top: 5px;
+}
+ .title-adress{
+   font-family: Open Sans;
+   font-size: 18px;
+   margin-top: 5%
+ }
+
+.form-div{
+  float: right;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
+textarea, input[type=text], select {
+    width: 380px;
+    max-width: 100%;
+    padding: 12px 20px;
+    margin: -2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+  box-shadow: 0px 0px 14px 0 rgba(181, 99, 10, 0.2);
+  outline:none;
+}
+
+textarea[type=text]:focus {
+  box-shadow: 0px 0px 14px 0 rgba(181, 99, 10, 0.2);
+  outline:none;
+}
+
+input[type=submit] {
+  font-family: Helvetica;
+  background-color: #fc4f00;
+  color: white;
+  padding: 10px 40px 11px 40px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+input[type=submit]:hover {
+  box-shadow: 0px 0px 14px 0 rgba(181, 99, 10, 0.9);
+}
+
+@media screen and (max-width: 991px){
+  .contact-bg-div{
+    width: 911px;
+    max-width: 100%;
+    height: 1084px;
+    max-height: 100%;
+  }
+  .adress-map-div{
+    float: none;
+    width: 100%;
+    margin: auto;
+    margin-top: 25px;
+  }
+  .title-adress{
+    text-align: center;
+    margin-top: 20px;
+  }
+  #googleMap{
+    position: relative;
+    width: 500px;
+    max-width: 100%;
+    margin:auto;
+  }
+  .form-div{
+    margin:auto;
+    float: none;
+    display: block;
+  }
+  .all-inputs{
+  text-align: center;
+   display: block;
+  }
+  .input-box{
+    float: none;
+    display: block;
+  }
+  .div-textarea{
+    margin:auto;
+
+  }
+}
+
+  @media screen and (max-width:420px) {
+    #googleMap{
+      position: relative;
+      width: 500px;
+      max-width: 90%;
+      margin: 2px auto;
+    }
+    .form-div{
+      margin:auto;
+      width: 90%;
+    }
+    .contact-bg-div{
+      height: 1130px;
+      max-height: 100%;
+    }
+  }
