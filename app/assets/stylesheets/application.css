@@ -128,6 +128,7 @@ li > a:hover{
   text-decoration: none;
   color: #fc4f00;
 }
+
 .selected a:hover{
   text-decoration: none;
   color: #fc4f00;
@@ -137,7 +138,6 @@ li > a:hover{
 }
 
 #ascensorFloor2 {
-
 }
 
 #ascensorFloor3 {

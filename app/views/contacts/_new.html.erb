@@ -1,23 +1,23 @@
-<h1>Contact form</h1>
+<h1 class = "">Пишете ни</h1>
 
 <div>
   <%= form_for @contact do |f| %>
-  <%= f.label :name %><br>
+  <%= f.label :Име %><br>
   <%= f.text_field :name, requested: true %>
 
   <br>
 
-  <%= f.label :email %><br>
+  <%= f.label :Имейл %><br>
   <%= f.text_field :email, requested: true %>
 
   <br>
 
-  <%= f.label :about %><br>
+  <%= f.label :Относно %><br>
   <%= f.text_field :about, requested: true %>
 
   <br>
 
-  <%= f.label :message %><br>
+  <%= f.label :Съобщение %><br>
   <%= f.text_area :message, as: :text %>
 
   <br>

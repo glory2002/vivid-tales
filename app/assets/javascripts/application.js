@@ -14,38 +14,60 @@
 // = require jquery_ujs
 // = require turbolinks
 // = require_tree .
+// = require underscore
+// = require gmaps/google
+
 $(document).ready(function(){
   $("#nav_bar_toggle").on("click", function(){
     $("#main_nav_bar").toggleClass("open");
   });
+// MAPP RAIL
+
+handler = Gmaps.build('Google');
+handler.buildMap({ provider: {}, internal: {id: 'googleMap'}}, function(){
+  markers = handler.addMarkers([
+    {
+      "lat": 0,
+      "lng": 0,
+      "picture": {
+        "url": "http://people.mozilla.com/~faaborg/files/shiretoko/firefoxIcon/firefox-32.png",
+        "width":  32,
+        "height": 32
+      },
+      "infowindow": "hello!"
+    }
+  ]);
+  handler.bounds.extendWith(markers);
+  handler.fitMapToBounds();
+});
 
 // MAP
-  var myCenter=new google.maps.LatLng(42.671425,23.3482661);
-
-  function initialize()
-  {
-  var mapProp = {
-    center:myCenter,
-    zoom:18,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-    };
-
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-
-  var marker=new google.maps.Marker({
-    position:myCenter,
-    });
-
-  marker.setMap(map);
-
-  var infowindow = new google.maps.InfoWindow({
-    content:"Добре Дошли!"
-    });
-
-  infowindow.open(map,marker);
-  }
-
-  google.maps.event.addDomListener(window, 'load', initialize);
+  // var myCenter=new google.maps.LatLng(42.671425,23.3482661);
+  //
+  // function initialize()
+  // {
+  // var mapProp = {
+  //   center:myCenter,
+  //   zoom:18,
+  //   mapTypeId:google.maps.MapTypeId.ROADMAP
+  //   };
+  //
+  // var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+  //
+  // var marker=new google.maps.Marker({
+  //   position:myCenter,
+  //   });
+  //
+  // marker.setMap(map);
+  //
+  // var infowindow = new google.maps.InfoWindow({
+  //   content:"Добре Дошли!"
+  //   });
+  //
+  // infowindow.open(map,marker);
+  // }
+  //
+  // google.maps.event.addDomListener(window, 'load', initialize);
 
   // ASCENSOR plugin
   var ascensor = $('#content').ascensor({direction:"x"});
