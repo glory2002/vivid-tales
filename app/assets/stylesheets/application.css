@@ -2,15 +2,18 @@
 @import "style-book.css";
 @import "style-idea.css";
 @import "style-contact.css";
-@import "font-awesome-sprockets";
-@import "font-awesome";
+/*@import "font-awesome-sprockets";
+@import "font-awesome";*/
+@import "bootstrap-sprockets";
 @import "bootstrap";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,800,700,300italic,300,400italic,600italic,700italic,800italic&subset=latin,cyrillic);
 @font-face{
   font-family: 'Sunday-Regular';
   src: url('Sunday-Regular.otf');
 }
-
+/*
+ *= require font-awesome
+ */
 body{
  background-image: url("Roq.png"), url("Jako.png"), url("BG.jpg");
  background-size: 70%, 70%, cover;
@@ -96,7 +99,7 @@ body{
 .navigation {
   float: right;
   margin-right: 0px;
-  margin-top: -37px;
+  margin-top: 30px;
 }
 
 .nav-bar{

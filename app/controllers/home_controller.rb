@@ -13,5 +13,6 @@ class HomeController < ApplicationController
       render :new
     end
     render "contacts/new"
+
   end
 end

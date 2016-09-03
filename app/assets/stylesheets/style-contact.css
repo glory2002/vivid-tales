@@ -19,21 +19,17 @@
   margin-left: 4%;
 }
 
-#googleMap{
+#one_marker{
   margin-top: 8%;
   border-radius: 12px;
   /*box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);*/
   border: solid #dbd9d9 2px;
 }
-.form-text{
-  font-family: Open Sans;
-  font-size: 16px;
-  position: relative;
-    top: 5px;
-}
+
  .title-adress{
    font-family: Open Sans;
-   font-size: 18px;
+   font-weight: 500;
+   font-size: 20px;
    margin-top: 5%
  }
 
@@ -43,23 +39,41 @@
   margin-top: 2%;
 }
 
-textarea, input[type=text], select {
+.text-label{
+  font-size: 18px;
+}
+
+.input-label{
     width: 380px;
     max-width: 100%;
     padding: 12px 20px;
-    margin: -2px 0;
+    margin-top: 3px;
+    margin-bottom: 19px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-sizing: border-box;
 }
 
-input[type=text]:focus {
+.input-message{
+  height: 120px;
+  width: 380px;
+  max-width: 100%;
+  padding: 12px 20px;
+  margin-top: 3px;
+  margin-bottom: 19px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.input-label:focus {
   box-shadow: 0px 0px 14px 0 rgba(181, 99, 10, 0.2);
   outline:none;
 }
 
-textarea[type=text]:focus {
+.input-message:focus {
   box-shadow: 0px 0px 14px 0 rgba(181, 99, 10, 0.2);
   outline:none;
 }
@@ -77,6 +91,12 @@ input[type=submit] {
 
 input[type=submit]:hover {
   box-shadow: 0px 0px 14px 0 rgba(181, 99, 10, 0.9);
+}
+
+.contact-title{
+  font-family: Open Sans;
+  font-weight: 500;
+  font-size: 23px;
 }
 
 @media screen and (max-width: 991px){
