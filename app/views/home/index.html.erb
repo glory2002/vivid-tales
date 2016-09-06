@@ -1,3 +1,5 @@
+<script src="http://cdn.rawgit.com/mahnunchik/markerclustererplus/master/dist/markerclusterer.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDM-ugtzXjca0KxpRclsMMUqaobWcieEAI&callback=initMap" async defer></script>
 
 <div id="content">
     <!-- floor-1 -->
@@ -5,7 +7,6 @@
       <div  class="inner-content">
         <h1 class="first-title">Добре дошли в <span class="pchelandia">Пчеландия</span></h1>
         <p class="text-main">Тук се случват най-цветните истории, не само защото са оцветени в жълто, зелено и оранжево, а и защото ухаят - на пролет и на приключения. Например в първата история се разказва за . . .</p>
-
         <div class="text-button"><%= link_to"научи повече", "#", class:"menu-text-btn" %></div>
       </div>
     </div>
@@ -78,7 +79,6 @@
     <div id="ascensorFloor3" class="myAscensorFloor">
       <div class="all-four">
         <div class="all-four-wraped">
-
           <div class="div-one-four">
             <div class="image-div"><%= image_tag("http://3.bp.blogspot.com/-2v2xO3dkStI/U0ATYnjKs0I/AAAAAAAAEnI/JBcy5nZSuYg/s890/%25D0%25A1%25D0%259F%2B-%2B%25D0%25BB%25D0%25BE%25D0%25B3%25D0%25BE.gif", class:"image-tag", alt:"sun")%></div>
               <div class="text-all">
@@ -102,37 +102,37 @@
     <!-- floor-4 -->
     <div id="ascensorFloor4" class="myAscensorFloor">
       <div class="autor">
-          <div class = "all-author">
-            <div class = "box-author">
-              <%= image_tag("Glory.jpg", class: 'photo-author', alt: "image_autor")%>
-            </div>
-            <div class = "text-allto">
-              <span class="paragraph-title">Глория Ангелова</span>
-              <p class="autor-p">Мелина-Елина Бондокова завършва анимация в София.
-                За дългите години практика е успяла да установи авторитетно
-                 име в чужбина и в България като илюстратор на книги и
-                комикси (има издадени над 20).Мелина-Елина Бондокова завършва анимация в София.
-                  За дългите години практика е успяла да установи авторитетно
-                   име.
-              </p>
-            </div>
+        <div class = "all-author">
+          <div class = "box-author">
+            <%= image_tag("Glory.jpg", class: 'photo-author', alt: "image_autor")%>
           </div>
-          <div class = "all-illustrator">
-            <div class = "box-illustrator">
-              <%= image_tag("Eli.jpg", class: 'photo-illustrator', alt: "image_illustrator")%>
-            </div>
-            <div class = "text-allto">
-              <span class="paragraph-title">Илюстрирана от Мелина-Елина Бондокова</span>
-              <p class="autor-p">Мелина-Елина Бондокова завършва анимация в София.
+          <div class = "text-allto">
+            <span class="paragraph-title">Глория Ангелова</span>
+            <p class="autor-p">Мелина-Елина Бондокова завършва анимация в София.
+              За дългите години практика е успяла да установи авторитетно
+               име в чужбина и в България като илюстратор на книги и
+              комикси (има издадени над 20).Мелина-Елина Бондокова завършва анимация в София.
                 За дългите години практика е успяла да установи авторитетно
-                 име в чужбина и в България като илюстратор на книги и
-                комикси (има издадени над 20). Някои от многото й
-                късометражни анимационни филми са взимали участие на
-                различни фестивали в България, Румъния, Италия,
-                Великобритания.
-              </p>
-            </div>
+                 име.
+            </p>
           </div>
+        </div>
+        <div class = "all-illustrator">
+          <div class = "box-illustrator">
+            <%= image_tag("Eli.jpg", class: 'photo-illustrator', alt: "image_illustrator")%>
+          </div>
+          <div class = "text-allto">
+            <span class="paragraph-title">Илюстрирана от Мелина-Елина Бондокова</span>
+            <p class="autor-p">Мелина-Елина Бондокова завършва анимация в София.
+              За дългите години практика е успяла да установи авторитетно
+               име в чужбина и в България като илюстратор на книги и
+              комикси (има издадени над 20). Някои от многото й
+              късометражни анимационни филми са взимали участие на
+              различни фестивали в България, Румъния, Италия,
+              Великобритания.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
     <!-- floor-5 -->
@@ -146,10 +146,27 @@
         </div>
 
         <div class="form-div">
-
         <%= render "contacts/new" %>
-
-
         </div>
       </div>
     </div>
+    <script>
+      handler = Gmaps.build('Google');
+      handler.buildMap({ internal: {id: 'one_marker'}},
+
+      function (){
+        markers = handler.addMarkers([
+          {
+            lat: 42.671425,
+            lng: 23.3482661,
+            picture: {
+              url: "https://addons.cdn.mozilla.net/img/uploads/addon_icons/13/13028-64.png",
+              width:  36,
+              height: 36,
+              zoom:18
+            },
+            infowindow: "Добре дошли!"
+          }
+        ]);
+      });
+    </script>

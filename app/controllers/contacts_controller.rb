@@ -10,7 +10,7 @@ class ContactsController < ApplicationController
       flash.now[:error] = nil
     else
       flash.now[:error] = 'Cannot send message.'
-      render :new
+      render :index
     end
   end
 end
