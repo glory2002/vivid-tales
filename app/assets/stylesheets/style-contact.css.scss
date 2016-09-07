@@ -41,14 +41,17 @@
 
 .text-label{
   font-size: 18px;
+  font-family: Open Sans;
+  font-weight: 500;
+  font-size: 17px;
 }
 
 .input-label{
     width: 380px;
     max-width: 100%;
     padding: 12px 20px;
-    margin-top: 3px;
-    margin-bottom: 19px;
+    margin-top: -5px;
+    margin-bottom: 12px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -60,8 +63,8 @@
   width: 380px;
   max-width: 100%;
   padding: 12px 20px;
-  margin-top: 3px;
-  margin-bottom: 19px;
+  margin-top: -5px;
+  margin-bottom: 12px;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 8px;

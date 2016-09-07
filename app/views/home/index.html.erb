@@ -1,6 +1,4 @@
 <script src="http://cdn.rawgit.com/mahnunchik/markerclustererplus/master/dist/markerclusterer.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDM-ugtzXjca0KxpRclsMMUqaobWcieEAI&callback=initMap" async defer></script>
-
 <div id="content">
     <!-- floor-1 -->
     <div id="ascensorFloor1" class="myAscensorFloor">
@@ -140,6 +138,7 @@
       <div class="contact-bg-div">
         <div class="adress-map-div">
           <div id="one_marker" style="width:550px; height:380px;">
+              <iframe src="https://maps.google.com/maps?q=42.671425,23.3482661&z=18&output=embed" width="550" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
           <h3 class="title-adress">"Цветни Истории" се издава и разпространява от Издателство "Бяло Братство"</h3>
           <h3 class="title-adress">София, кв. Изгрев, ул. „ген. Щерю Атанасов“ 2</h3>
@@ -150,23 +149,3 @@
         </div>
       </div>
     </div>
-    <script>
-      handler = Gmaps.build('Google');
-      handler.buildMap({ internal: {id: 'one_marker'}},
-
-      function (){
-        markers = handler.addMarkers([
-          {
-            lat: 42.671425,
-            lng: 23.3482661,
-            picture: {
-              url: "https://addons.cdn.mozilla.net/img/uploads/addon_icons/13/13028-64.png",
-              width:  36,
-              height: 36,
-              zoom:18
-            },
-            infowindow: "Добре дошли!"
-          }
-        ]);
-      });
-    </script>

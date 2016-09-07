@@ -25,8 +25,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'mail_form', '~> 1.5', '>= 1.5.1'
 
-gem 'gmaps4rails'
-
 gem 'bootstrap-generators', '~> 3.3', '>= 3.3.4'
 
 gem 'bootstrap-sass', '~> 3.2.0'
