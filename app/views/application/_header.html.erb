@@ -1,0 +1,32 @@
+<header class="div-header">
+  <div class="container-fluid">
+    <div class="inside-header">
+      <div class="row">
+        <div class="inside-header-left">
+          <%= image_tag("logo.png", id: "logo", alt: "logo") %>
+        </div>
+        <div class="inside-header-right">
+          <ul class="fb-en-ul fb-resp clearfix">
+            <li class="fb-en"><%= link_to "f", "https://www.facebook.com/pchelandia/", class: "f-button" %></li>
+            <li class="fb-en"><%= link_to "en", "#", class: "en-button" %></li>
+          </ul>
+
+          <i id="nav_bar_toggle" class="fa fa-bars fa-2x visible-sm visible-xs pull-right menu-hamburger" aria-hidden="true"></i>
+
+          <div class="all-menu-buttons clearfix">
+            <nav class="navigation">
+              <div id="main_nav_bar" class="nav-bar hidden-xs hidden-sm bar-toggle">
+                <ul class="links-to-floor clearfix">
+                  <li class="menu-tag nav-toggle-li"><%= link_to "Начало", "#", class: "menu-text ascensorLink ascensorLink1" %></li>
+                  <li class="menu-tag nav-toggle-li"><%= link_to "Книгата", "#", class: "menu-text ascensorLink ascensorLink2" %></li>
+                  <li class="menu-tag nav-toggle-li"><%= link_to "Идея", "#", class: "menu-text ascensorLink ascensorLink3" %></li>
+                  <li class="menu-tag nav-toggle-li"><%= link_to "Автор", "#", class: "menu-text ascensorLink ascensorLink4" %></li>
+                  <li class="menu-tag nav-toggle-li"><%= link_to "Контакт", "#", class: "menu-text ascensorLink ascensorLink5" %></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
