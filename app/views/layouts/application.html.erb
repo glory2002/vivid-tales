@@ -14,10 +14,11 @@
 
 </head>
 <body>
-  <header class="div-header">
-    <div class="container-fluid">
-      <div class="inside-header">
-        <div class="row">
+  <% content_for :header do %>
+    <header class="div-header">
+      <div class="container-fluid">
+        <div class="inside-header">
+          <div class="row">
             <div class="inside-header-left">
               <%= image_tag("logo.png", id: "logo", alt: "logo") %>
             </div>
@@ -45,7 +46,10 @@
             </div>
           </div>
         </div>
-      </header>
+      </div>
+    </header>
+  <% end %>
+
 
 <%= yield %>
 

@@ -14,8 +14,9 @@
 
 </head>
 <body>
-  
-<%= yield %>
+  <%= content_for?(:header) %>
+
+    <%= yield %>
 
   <div class="footer">
     <p class="copyright">© 2016 Цветни Истории. Всички права запазени. Създадено от Gloria Angelova</p>

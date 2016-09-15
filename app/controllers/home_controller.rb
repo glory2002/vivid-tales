@@ -3,8 +3,8 @@ class HomeController < ApplicationController
     @contact = Contact.new
   end
 
-  def show
-    render layout: 'mylayout'
+  def book
+    render layout: 'books'
   end
 
   def create
