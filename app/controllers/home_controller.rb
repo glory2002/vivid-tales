@@ -3,6 +3,10 @@ class HomeController < ApplicationController
     @contact = Contact.new
   end
 
+  def show
+    render layout: 'mylayout'
+  end
+
   def create
     @contact = Contact.new(params[:contact])
     @contact.request = request

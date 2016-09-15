@@ -17,4 +17,6 @@
 // = require jquery.ascensor
 // = require home
 // = require folding-book
+// = require modernizr.custom
+// = require jquery.bookblock
 // = require_tree .

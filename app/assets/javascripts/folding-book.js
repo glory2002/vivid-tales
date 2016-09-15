@@ -1,5 +1,4 @@
-$(document).ready(function(){
-
+a
 // The BOOK
 
 /* Modernizr 2.6.2 (Custom Build) | MIT & BSD
@@ -341,4 +340,3 @@ window.Modernizr = function(a, b, c) {
   }(this, document), Modernizr.load = function() {
     yepnope.apply(window, [].slice.call(arguments, 0))
   };
-  });

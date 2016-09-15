@@ -1,7 +1,11 @@
 @import "style-autor.css";
 @import "style-book.css";
 @import "style-idea.css";
+@import "style-show.css";
 @import "style-contact.css";
+@import "demo1.css.scss";
+@import "bookblock.css.scss";
+@import "default.css.scss";
 @import "font-awesome";
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -98,7 +102,7 @@ body{
 .navigation {
   float: right;
   margin-right: 0px;
-  margin-top: -20px;
+  margin-top: -15px;
 }
 
 .nav-bar{
@@ -228,10 +232,14 @@ li > a:hover{
   color: white;
 }
 
-.open{
-  display: block !important;
-  margin-top: 50px;
+.menu-text{
+  text-decoration: none;
+  color: black;
+}
 
+.open{
+  display: inline-block;
+  margin-top: 50px;
 }
 
 .menu-hamburger{
