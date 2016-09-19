@@ -10,7 +10,7 @@
 }
 
 .bb-custom-wrapper {
-	/*width: 420px;*/
+	// width: 420px;
 	position: relative;
 	margin: 0 auto 40px;
 	text-align: center;
@@ -37,6 +37,7 @@
 
 .bb-custom-wrapper nav a {
 	display: inline-block;
+	text-decoration: none;
 	width: 30px;
 	height: 30px;
 	text-align: center;
@@ -49,6 +50,7 @@
 
 .bb-custom-wrapper nav a:hover {
 	opacity: 0.6;
+	text-decoration: none;
 }
 
 .back{
@@ -67,6 +69,8 @@
 
 .back:hover {
 	box-shadow: 0px 0px 14px 0 rgba(181, 99, 10, 0.9);
+	text-decoration: none;
+	color: white;
 }
 
 .bb-custom-icon:before {

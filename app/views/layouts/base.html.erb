@@ -2,27 +2,17 @@
 <html>
 <head>
   <title>Pchelandia</title>
-
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <script scr="//cdn.rawgit.com/mahnunchik/markerclustererplus/master/dist/markerclusterer.min.js"></script>
-  <script scr="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
-
   <%= favicon_link_tag "Roq.png"%>
-
 </head>
 <body>
-  
-    <%= yield(:header) %>
-
-    <%= yield %>
-
+  <%= yield(:header) %>
+  <%= yield %>
   <div class="footer">
     <p class="copyright">© 2016 Цветни Истории. Всички права запазени. Създадено от Gloria Angelova</p>
   </div>
-
 </body>
-
 </html>
