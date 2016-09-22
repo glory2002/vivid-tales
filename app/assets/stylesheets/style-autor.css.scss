@@ -10,7 +10,7 @@
   max-width: 100%;
   height: 650px;
   max-height: 100%;
-  /*display: none;*/
+  // display: none;
 }
 
 .all-illustrator{
@@ -18,18 +18,19 @@
 }
 
 .paragraph-title{
-  font-size: 26px;
+  font-size: 170%;
   font-family: Open Sans;
   font-weight: 500;
   margin-top: 10px;
 }
 
 .autor-p{
-  font-size: 20px;
+  font-size: 140%;
   font-family: Open Sans;
   line-height: 180%;
   text-align: justify;
   margin-top: 5px;
+  padding-left: 260px;
 }
 
 .text-allto{
@@ -56,4 +57,32 @@
 .photo-illustrator{
   width: 60%;
   margin: 6px 0 0 46px;
+}
+
+@media screen and (max-width: 991px){
+
+  .autor{
+    height: 720px;
+  }
+
+  .autor-p {
+  }
+
+  html{
+    font-size: 100%;
+  }
+
+}
+
+@media screen and (max-width: 420px){
+
+
+  .autor{
+    height: 900px;
+  }
+
+  .box-author {
+    width: 53%;
+    margin: auto;
+    }
 }
