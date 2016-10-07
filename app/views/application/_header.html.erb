@@ -1,15 +1,20 @@
-<h1><%= t 'hello' %></h1>
 <header class="div-header">
   <div class="container-fluid">
     <div class="inside-header">
       <div class="row">
         <div class="inside-header-left">
-          <%= image_tag("logo.png", id: "logo", alt: "logo") %>
+          <%= render 'logo' %>
         </div>
         <div class="inside-header-right">
           <ul class="fb-en-ul fb-resp clearfix">
             <li class="fb-en"><%= link_to "f", "https://www.facebook.com/pchelandia/", class: "f-button" %></li>
-            <li class="fb-en"><%= link_to "en", "#", class: "en-button" %></li>
+            <li class="fb-en">
+              <% if I18n.locale == I18n.default_locale %>
+                <%= link_to "en", locale: 'en', class: "en-button" %>
+              <% else %>
+                <%= link_to "bg", locale: 'bg', class: "en-button" %>
+              <%end%>
+            </li>
           </ul>
 
           <i id="nav_bar_toggle" class="fa fa-bars fa-2x visible-sm visible-xs pull-right menu-hamburger navbar-toggle" aria-hidden="true"></i>

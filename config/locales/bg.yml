@@ -20,4 +20,5 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 bg:
-  hello: "Hello world"
+  home:
+    html: "Добре дошли в <span class='pchelandia'>Пчеландия</span>"

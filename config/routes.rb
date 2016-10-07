@@ -2,20 +2,21 @@ Rails.application.routes.draw do
   # root 'home#index'
   scope "(:locale)", locale: /bg|en/ do
     root to: 'home#index'
+    get 'home/index'
+    get 'home/book'
+    get 'home/thebook'
+    get 'home/idea'
+    get 'home/autor'
+    get 'home/contacts'
+
+    get 'contacts/new'
+
+    get 'contacts/create'
+
+    resource :contacts, only: [:new, :create]
+
   end
-  
-  get 'home/index'
-  get 'home/book'
-  get 'home/thebook'
-  get 'home/idea'
-  get 'home/autor'
-  get 'home/contacts'
 
-  get 'contacts/new'
-
-  get 'contacts/create'
-
-  resource :contacts, only: [:new, :create]
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
