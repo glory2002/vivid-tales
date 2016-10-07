@@ -1,4 +1,3 @@
-<script src="http://cdn.rawgit.com/mahnunchik/markerclustererplus/master/dist/markerclusterer.min.js"></script>
 <div id="content">
 
     <!-- floor-1 -->
@@ -7,147 +6,16 @@
       <div  class="inner-content">
         <h1 class="first-title">Добре дошли в <span class="pchelandia">Пчеландия</span></h1>
         <p class="text-main">Тук се разказават най-цветните истории, не само защото са обагрени в жълто, зелено и оранжево, а и защото ухаят - на пролет и на приключения. Например в първата история се разказва за . . .</p>
-        <div class="text-button"><%= link_to"научи повече", "#", class:"menu-text-btn" %></div>
+        <div class="text-button"><%= link_to"научи повече", home_thebook_path, class:"menu-text-btn" %></div>
       </div>
     </div>
 
     <!-- floor-2 -->
 
-    <div id="ascensorFloor2" class="myAscensorFloor">
-      <div class="book-background">
-        <div class="container">
-          <div class="component">
-            <ul class="align">
-              <li>
-                <figure class='book'>
-                  <!-- Front -->
-                  <ul class='hardcover_front'>
-                    <li>
-                      <%= image_tag("Cover.jpg", alt: "cover", width:"100%", height:"100%")%>
-                    </li>
-                    <li></li>
-                  </ul>
-                   <!-- Pages -->
-                  <ul class='page'>
-                    <li></li>
-                    <li>
-                      <%= link_to "РАЗГЛЕДАЙ", home_book_path, class: "btn" %>
-                      <%= link_to "ПОРЪЧАЙ", "http://www.bialobratstvo.info/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/%D0%BD%D0%BE%D0%B2%D0%B8/%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D0%B8-%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8", class: "btn btn-2" %>
-                    </li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                  </ul>
-                   <!-- Back -->
-                  <ul class='hardcover_back'>
-                    <li></li>
-                    <li></li>
-                  </ul>
-                  <ul class='book_spine'>
-                    <li></li>
-                    <li></li>
-                  </ul>
-                </figure>
-                  <figcaption>
-                    <h1>Цветни Истории</h1>
-                    <span>ИСТОРИЯ ПЪРВА: В ТЪРСЕНЕ НА ИЗГУБЕНАТА ПРОЛЕТ</span>
-                    <p>Мечтата на малка пчелна принцеса да види пролетта я отвежда
-                      на вълшебно място. Тя попада в приказна гора, в която
-                      музиката лекува, а песента повдига духа. По пътя си
-                      среща приятел, на когото винаги може да разчита.
-                      Разбира, че търтеите не са само мързеливи и досадни,
-                      но могат да бъдат верни приятели и да те забавляват
-                      дори когато ти е най-тъжно.
-                    </p>
-                    <p><q>"Знаеш ли Жако, толкова е хубаво да отлетиш надалеч, за да нямаш трпение да се завърнеш у дома"</q></p>
-                  </figcaption>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!-- floor-3 -->
-
-    <div id="ascensorFloor3" class="myAscensorFloor">
-      <div class="all-four">
-        <div class="all-four-wraped">
-          <div class="div-one-four">
-            <div class="image-div"><%= image_tag("http://3.bp.blogspot.com/-2v2xO3dkStI/U0ATYnjKs0I/AAAAAAAAEnI/JBcy5nZSuYg/s890/%25D0%25A1%25D0%259F%2B-%2B%25D0%25BB%25D0%25BE%25D0%25B3%25D0%25BE.gif", class:"image-tag", alt:"sun")%></div>
-              <div class="text-all">
-                <div class="text">
-                  <h1 class="p-title">Идеята</h1>
-                  <p class="p-text">Музиката, природата и цветята обагрят историите в различни краски.
-                   Книжката ни пренася в един приказен свят - кралство Пчеландия.
-                    Вдъхновена от пчелите като същества от един висш порядък,
-                    тя дава импулс на децата да вярват в мечтите си, да пътешестват и да бъдат смели.
-
-                  </p>
-                  <p class="p-text">Цветните историте отразяват идеите на слънчевата педагогика - система от принципи,
-                    която създава основа за възстановяване на живата и съзнателна връзка с природата.
-                    Тези педагогически идеи са ни завещани от Учителя Беинса Дуно и са насочени към облагородяване на детската душа.
-
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
 
     <!-- floor-4 -->
 
-    <div id="ascensorFloor4" class="myAscensorFloor">
-      <div class="autor">
-        <div class = "all-author">
-          <div class = "box-author">
-            <%= image_tag("Glory.jpg", class: 'photo-author', alt: "image_autor")%>
-          </div>
-          <div class = "text-allto">
-            <span class="paragraph-title">Глория Ангелова</span>
-            <p class="autor-p">Авторката на тази книжка e завърила Инжинерен Дизайн в София и
-              в момента работи като графичен дизайнер.
-              Има интереси в областта на дизайна, писането и музиката.
-              Творчеството под различна форма запълва ежедневието й с предизвикателството да открива и да създава нещо красиво всеки ден.
-            </p>
-          </div>
-        </div>
-        <div class = "all-illustrator">
-          <div class = "box-illustrator">
-            <%= image_tag("Eli.jpg", class: 'photo-illustrator', alt: "image_illustrator")%>
-          </div>
-          <div class = "text-allto">
-            <span class="paragraph-title">Илюстрирана от Мелина-Елина Бондокова</span>
-            <p class="autor-p">Мелина-Елина Бондокова завършва анимация в София.
-              За дългите години практика е успяла да установи авторитетно
-               име в чужбина и в България като илюстратор на книги и
-              комикси (има издадени над 20). Някои от многото й
-              късометражни анимационни филми са взимали участие на
-              различни фестивали в България, Румъния, Италия,
-              Великобритания.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!-- floor-5 -->
 
-    <div id="ascensorFloor5" class="myAscensorFloor">
-      <div class="contact-bg-div">
-        <div class="adress-map-div">
-          <div id="one_marker" style="width:550px; height:380px;">
-              <iframe src="https://maps.google.com/maps?q=42.671425,23.3482661&z=18&output=embed" class="map" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-          <h3 class="title-adress">"Цветни Истории" се издава и разпространява от Издателство "Бяло Братство"</h3>
-          <h3 class="title-adress">София, кв. Изгрев, ул. „ген. Щерю Атанасов“ 2</h3>
-        </div>
-
-        <div class="form-div">
-        <%= render "contacts/new" %>
-        </div>
-      </div>
-    </div>
   </div>

@@ -31,6 +31,7 @@ gem 'autoprefixer-rails'
 
 gem "font-awesome-rails"
 
+gem 'globalize3'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

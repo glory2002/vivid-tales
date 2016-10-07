@@ -1,3 +1,4 @@
+<h1><%= t 'hello' %></h1>
 <header class="div-header">
   <div class="container-fluid">
     <div class="inside-header">
@@ -17,11 +18,11 @@
             <nav class="navigation">
               <div id="main_nav_bar" class="nav-bar hidden-xs hidden-sm">
                 <ul class="links-to-floor clearfix">
-                  <li class="menu-tag nav-toggle-li"><%= link_to "Начало", "#", class: "menu-text ascensorLink ascensorLink1" %></li>
-                  <li class="menu-tag nav-toggle-li"><%= link_to "Книгата", "#", class: "menu-text ascensorLink ascensorLink2" %></li>
-                  <li class="menu-tag nav-toggle-li"><%= link_to "Идея", "#", class: "menu-text ascensorLink ascensorLink3" %></li>
-                  <li class="menu-tag nav-toggle-li"><%= link_to "Автор", "#", class: "menu-text ascensorLink ascensorLink4" %></li>
-                  <li class="menu-tag nav-toggle-li"><%= link_to "Контакт", "#", class: "menu-text ascensorLink ascensorLink5" %></li>
+                  <li class="menu-tag nav-toggle-li"><%= link_to "Начало", home_index_path, id: "current_link", class: "menu-text" %></li>
+                  <li class="menu-tag nav-toggle-li"><%= link_to "Книгата", home_thebook_path,  id: "current_link", class: "menu-text" %></li>
+                  <li class="menu-tag nav-toggle-li"><%= link_to "Идея", home_idea_path,  id: "current_link", class: "menu-text" %></li>
+                  <li class="menu-tag nav-toggle-li"><%= link_to "Автор", home_autor_path,  id: "current_link", class: "menu-text" %></li>
+                  <li class="menu-tag nav-toggle-li"><%= link_to "Контакт", home_contacts_path,  id: "current_link", class: "menu-text" %></li>
                 </ul>
               </div>
             </nav>

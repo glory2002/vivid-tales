@@ -120,24 +120,24 @@ body{
   font-size: 20px;
 }
 
-li {
+.menu-text{
   text-decoration: none;
   color: black;
+  position: relative;
 }
 
-li > a:hover{
+.menu-text:hover, .menu-text:active{
   color: #fc4f00;
   text-decoration: none;
 }
 
-.selected a{
-  text-decoration: none;
-  color: #fc4f00;
+.menu-text:active {
+  top: 2px;
 }
 
-.selected a:hover{
-  text-decoration: none;
+.current{
   color: #fc4f00;
+  text-decoration: none;
 }
 
 .centered-white{
