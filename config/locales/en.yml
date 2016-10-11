@@ -22,3 +22,45 @@
 en:
   home:
     html: "Welcome to <span class='pchelandia'>BeeLand</span>"
+    menu-one: "Home"
+    menu-two: "Book"
+    menu-three: "Idea"
+    menu-four: "Autor"
+    menu-five: "Contacts"
+    text-home: "Here you will discover the most vivid tales and not only they are colored in yellow, green and orange, but because they smell like spring and anventures. In the Story One you will read about..."
+    more-button: "learn more"
+  book:
+    see-button: "WATCH"
+    order-button: "ORDER"
+    title: "Vivid Tales"
+    sub-title: "STORY ONE: IN SEARCH OF THE LOST SPRING"
+    body: "It is the dream of a little bee that brings her to a magical place. She finds herself in a fairy forest where the music heals, and the songs make spirits brighter. While on her way, she meets a friend on whom she can always rely. She then understands that the drones are not always lazy and annoying but can be good friends too, as they entertain and cheer you up even when you are feeling incredibly sad. "
+    quote: '"You know, Jacko… now I understand how good it is to fly far away from home so as to look forward to going back."'
+  idea:
+    title: "The Idea"
+    main: "Music, Nature and Flours make the pages of this book colorfull.
+      The book transports us into a fantasy world - Kingdom Beeland. Inspired by the bees as beings of a higher order it gives impetus children to believe in your dreams, to travel and to be brave."
+    main-two: "The Vivid Tales reflects the ideas of Sun Pedagogy - a system of principles that creates the basis for reimbursement of living and conscious relationship with nature. These pedagogical ideas are left by the Master Beinsa Duno and are aimed at improvement of the child's soul."
+  author:
+    author-name: "Gloria Angelova"
+    author-text: "Авторката на тази книжка e завърила Инжинерен Дизайн в София и
+      в момента работи като графичен дизайнер.
+      Има интереси в областта на дизайна, писането и музиката.
+      Творчеството под различна форма запълва ежедневието й с предизвикателството да открива и да създава нещо красиво всеки ден."
+    illustrator-name: "Illustrated by Melina-Elina Bondokova"
+    illustrator-text: "Мелина-Елина Бондокова завършва анимация в София.
+      За дългите години практика е успяла да установи авторитетно
+       име в чужбина и в България като илюстратор на книги и
+      комикси (има издадени над 20). Някои от многото й
+      късометражни анимационни филми са взимали участие на
+      различни фестивали в България, Румъния, Италия,
+      Великобритания."
+  contact:
+    adress: '"Vivid Tiles" is published and distributed by Publisher "White Brotherhood"'
+    adress-two: 'Sofia, "Izgrev", „General Shteryu Atanasov“ 2 str.'
+    title: "Contacts"
+    name: "Name"
+    email: "Email"
+    about: "About"
+    message: "Message"
+    send: "send"

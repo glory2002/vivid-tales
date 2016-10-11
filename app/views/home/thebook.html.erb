@@ -19,8 +19,8 @@
                 <ul class='page'>
                   <li></li>
                   <li>
-                    <%= link_to "РАЗГЛЕДАЙ", home_book_path, class: "btn" %>
-                    <%= link_to "ПОРЪЧАЙ", "http://www.bialobratstvo.info/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/%D0%BD%D0%BE%D0%B2%D0%B8/%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D0%B8-%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8", class: "btn btn-2" %>
+                    <%= link_to t("book.see-button"), home_book_path, class: "btn" %>
+                    <%= link_to t("book.order-button"), "http://www.bialobratstvo.info/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/%D0%BD%D0%BE%D0%B2%D0%B8/%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D0%B8-%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8", class: "btn btn-2" %>
                   </li>
                   <li></li>
                   <li></li>
@@ -37,17 +37,10 @@
                 </ul>
               </figure>
                 <figcaption>
-                  <h1>Цветни Истории</h1>
-                  <span>ИСТОРИЯ ПЪРВА: В ТЪРСЕНЕ НА ИЗГУБЕНАТА ПРОЛЕТ</span>
-                  <p>Мечтата на малка пчелна принцеса да види пролетта я отвежда
-                    на вълшебно място. Тя попада в приказна гора, в която
-                    музиката лекува, а песента повдига духа. По пътя си
-                    среща приятел, на когото винаги може да разчита.
-                    Разбира, че търтеите не са само мързеливи и досадни,
-                    но могат да бъдат верни приятели и да те забавляват
-                    дори когато ти е най-тъжно.
-                  </p>
-                  <p><q>"Знаеш ли Жако, толкова е хубаво да отлетиш надалеч, за да нямаш трпение да се завърнеш у дома"</q></p>
+                  <h1><%= t("book.title") %></h1>
+                  <span><%= t("book.sub-title") %></span>
+                  <p><%= t("book.body") %></p>
+                  <p><q><%= t("book.quote") %></q></p>
                 </figcaption>
             </li>
           </ul>

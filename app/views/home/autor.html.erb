@@ -6,12 +6,8 @@
             <%= image_tag("Glory.jpg", class: 'photo-author', alt: "image_autor")%>
           </div>
           <div class = "text-allto">
-            <span class="paragraph-title">Глория Ангелова</span>
-            <p class="autor-p">Авторката на тази книжка e завърила Инжинерен Дизайн в София и
-              в момента работи като графичен дизайнер.
-              Има интереси в областта на дизайна, писането и музиката.
-              Творчеството под различна форма запълва ежедневието й с предизвикателството да открива и да създава нещо красиво всеки ден.
-            </p>
+            <span class="paragraph-title"><%= t ("author.author-name") %></span>
+            <p class="autor-p"><%= t ("author.author-text") %></p>
           </div>
         </div>
         <div class = "all-illustrator">
@@ -19,15 +15,8 @@
             <%= image_tag("Eli.jpg", class: 'photo-illustrator', alt: "image_illustrator")%>
           </div>
           <div class = "text-allto">
-            <span class="paragraph-title">Илюстрирана от Мелина-Елина Бондокова</span>
-            <p class="autor-p">Мелина-Елина Бондокова завършва анимация в София.
-              За дългите години практика е успяла да установи авторитетно
-               име в чужбина и в България като илюстратор на книги и
-              комикси (има издадени над 20). Някои от многото й
-              късометражни анимационни филми са взимали участие на
-              различни фестивали в България, Румъния, Италия,
-              Великобритания.
-            </p>
+            <span class="paragraph-title"><%= t("author.illustrator-name") %></span>
+            <p class="autor-p"><%= t("author.illustrator-text") %></p>
           </div>
         </div>
       </div>
