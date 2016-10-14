@@ -1,22 +1,26 @@
 <div id="content">
-    <div id="ascensorFloor4" class="myAscensorFloor">
+    <!-- <div id="ascensorFloor4" class="myAscensorFloor"> -->
       <div class="autor">
-        <div class = "all-author">
+        <div class="row">
+        <div class = "all-author col-xs-6">
           <div class = "box-author">
-            <%= image_tag("Glory.jpg", class: 'photo-author', alt: "image_autor")%>
+              <%= image_tag("Glory.jpg", class: 'photo-author', alt: "image_autor")%>
           </div>
-          <div class = "text-allto">
+          <div class = "all">
+            <p class="par">АВТОР</p>
             <span class="paragraph-title"><%= t ("author.author-name") %></span>
-            <p class="autor-p"><%= t ("author.author-text") %></p>
+            <p class="text-large"><%= t ("author.author-text") %></p>
           </div>
         </div>
-        <div class = "all-illustrator">
+
+        <div class = "all-illustrator col-xs-6">
           <div class = "box-illustrator">
             <%= image_tag("Eli.jpg", class: 'photo-illustrator', alt: "image_illustrator")%>
           </div>
-          <div class = "text-allto">
+          <div class = "all">
+            <p class="par">ИЛЮСТРАТОР</p>
             <span class="paragraph-title"><%= t("author.illustrator-name") %></span>
-            <p class="autor-p"><%= t("author.illustrator-text") %></p>
+            <p class="text-large"><%= t("author.illustrator-text") %></p>
           </div>
         </div>
       </div>

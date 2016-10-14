@@ -1,24 +1,27 @@
-<h1 class = "contact-title"><%= t("contact.title")%></h1>
 
 <div>
   <%= form_for @contact do |f| %>
-  <%= f.label t ("contact.name"), class:"text-label" %><br>
-  <%= f.text_field :name, requested: true, class:"input-label" %>
+  <!-- <%= f.label class:"text-label" %> -->
+  <br>
+  <%= f.text_field :name, requested: true, class:"input-label", placeholder: "Enter Your Name" %>
 
   <br>
 
-  <%= f.label t ("contact.email"), class:"text-label" %><br>
-  <%= f.text_field :email, requested: true, class:"input-label" %>
+  <!-- <%= f.label t ("contact.email"), class:"text-label" %> -->
+  <br>
+  <%= f.text_field :email, requested: true, class:"input-label", placeholder: "Enter Your Email" %>
 
   <br>
 
-  <%= f.label t ("contact.about"), class:"text-label" %><br>
-  <%= f.text_field :about, requested: true, class:"input-label" %>
+  <!-- <%= f.label t ("contact.about"), class:"text-label" %> -->
+  <br>
+  <%= f.text_field :about, requested: true, class:"input-label",  placeholder: "Enter Your Subject" %>
 
   <br>
 
-  <%= f.label t ("contact.message"), class:"text-label" %><br>
-  <%= f.text_area :message, as: :text, class:"input-message" %>
+  <!-- <%= f.label t ("contact.message"), class:"text-label" %> -->
+  <br>
+  <%= f.text_area :message, as: :text, class:"input-message",  placeholder: "Enter Your Message" %>
 
   <br>
 

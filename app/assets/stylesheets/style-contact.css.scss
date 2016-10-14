@@ -23,8 +23,8 @@
   margin-top:-21px;
   width: 546px;
   height: 376px;
-    border-radius: 3%;
-    z-index: 50;
+  border-radius: 3%;
+  z-index: 50;
 }
 
 #one_marker{
@@ -58,24 +58,24 @@
     width: 380px;
     max-width: 100%;
     padding: 12px 20px;
-    margin-top: -5px;
-    margin-bottom: 0px;
+    // margin-top: -5px;
+    margin-bottom: -20px;
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 5px;
     box-sizing: border-box;
 }
 
 .input-message{
-  height: 120px;
+  height: 180px;
   width: 380px;
   max-width: 100%;
   padding: 12px 20px;
-  margin-top: -5px;
+  // margin-top: -5px;
   margin-bottom: 12px;
   display: inline-block;
   border: 1px solid #ccc;
-  border-radius: 8px;
+  border-radius: 5px;
   box-sizing: border-box;
 }
 
@@ -90,7 +90,6 @@
 }
 
 input[type=submit] {
-  margin-top: 20px;
   font-family: Helvetica;
   background-color: #fc4f00;
   color: white;
@@ -106,9 +105,10 @@ input[type=submit]:hover {
 }
 
 .contact-title{
-  font-family: Open Sans;
+  font-family: Sunday-Regular;
   font-weight: 500;
   font-size: 23px;
+  color: #fc4f00;
 }
 
 @media screen and (max-width: 991px){
