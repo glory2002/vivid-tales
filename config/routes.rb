@@ -2,12 +2,12 @@ Rails.application.routes.draw do
   # root 'home#index'
   scope "(:locale)", locale: /bg|en/ do
     root to: 'home#index'
-    get 'home/index'
-    get 'home/book'
-    get 'home/thebook'
-    get 'home/idea'
-    get 'home/autor'
-    get 'home/contacts'
+    get 'home/index', path: "index"
+    get 'home/book', path: "book"
+    get 'home/thebook', path: "thebook"
+    get 'home/idea', path: "idea"
+    get 'home/autor', path: "autor"
+    get 'home/contacts', path: "contacts"
 
     get 'contacts/new'
 
