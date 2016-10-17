@@ -75,6 +75,4 @@ bg:
     message: "Събщение"
     send: "изпрати"
   helpers:
-    placeholder:
-      person:
-        name: "Въведи Име"
+    name: "Въведи Име"

@@ -64,3 +64,5 @@ en:
     about: "About"
     message: "Message"
     send: "send"
+  helpers:
+    name: "Въведи Име"
