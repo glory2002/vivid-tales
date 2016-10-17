@@ -24,11 +24,11 @@
             <nav class="navigation">
               <div id="main_nav_bar" class="nav-bar hidden-xs hidden-sm">
                 <ul class="links-to-floor clearfix">
-                  <li class="menu-tag nav-toggle-li"><%= link_to t("home.menu-one"), home_index_path, id: "current_link", class: "menu-text" %></li>
-                  <li class="menu-tag nav-toggle-li"><%= link_to t("home.menu-two"), home_thebook_path,  id: "current_link", class: "menu-text" %></li>
-                  <li class="menu-tag nav-toggle-li"><%= link_to t("home.menu-three"), home_idea_path,  id: "current_link", class: "menu-text" %></li>
-                  <li class="menu-tag nav-toggle-li"><%= link_to t("home.menu-four"), home_autor_path,  id: "current_link", class: "menu-text" %></li>
-                  <li class="menu-tag nav-toggle-li"><%= link_to t("home.menu-five"), home_contacts_path,  id: "current_link", class: "menu-text" %></li>
+                  <li class="menu-tag nav-toggle-li"><%= link_to t("home.menu-one"), home_index_path, id: "current_link", class: "menu-text #{current_page?(home_index_path) ? "current" : nil }" %></li>
+                  <li class="menu-tag nav-toggle-li"><%= link_to t("home.menu-two"), home_thebook_path, id: "current_link", class: "menu-text #{current_page?(home_thebook_path) ? "current" : nil }" %></li>
+                  <li class="menu-tag nav-toggle-li"><%= link_to t("home.menu-three"), home_idea_path, id: "current_link", class: "menu-text #{current_page?(home_idea_path) ? "current" : nil }" %></li>
+                  <li class="menu-tag nav-toggle-li"><%= link_to t("home.menu-four"), home_autor_path, id: "current_link", class: "menu-text #{current_page?(home_autor_path) ? "current" : nil }" %></li>
+                  <li class="menu-tag nav-toggle-li"><%= link_to t("home.menu-five"), home_contacts_path, id: "current_link", class: "menu-text #{current_page?(home_contacts_path) ? "current" : nil }" %></li>
                 </ul>
               </div>
             </nav>
