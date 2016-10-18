@@ -97,38 +97,15 @@ a {
 }
 
 .align > li {
-  width: 500px;
-  height: 300px;
+  // width: 500px;
+  // height: 300px;
   display: inline-block;
-  float: left;
-  margin: -22px 0 0 0;
-  padding: 0 0 0 100px;
-  vertical-align: top;
+  // float: left;
+  margin: auto;
+  // padding: 0 0 0 100px;
+  // vertical-align: top;
 }
 
-
-/* ///////////////////////////////////////////////////
-
-HARDCOVER
-Table of Contents
-
-1. container
-2. background & color
-3. opening cover, back cover and pages
-4. position, transform y transition
-5. events
-6. Bonus
-	- Cover design
-	- Ribbon
-	- Figcaption
-7. mini-reset
-
-/////////////////////////////////////////////////////*/
-
-
-/*
-	1. container
-*/
 
 .book {
   position: relative;
@@ -142,14 +119,6 @@ Table of Contents
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-
-
-/*
-	2. background & color
-*/
-
-
-/* HARDCOVER FRONT */
 
 .hardcover_front li:first-child {
   background-color: #eee;
@@ -727,12 +696,13 @@ Table of Contents
 /* figcaption */
 
 figcaption {
-  padding-left: 100px;
+  padding-right: 100px;
   text-align: left;
-  position: relative;
-  top: -227px;
-  left: 137px;
-  width: 720px;
+  // position: relative;
+  // top: -227px;
+  // left: 137px;
+  // width: 720px;
+  margin-top: 70px;
   -webkit-backface-visibility: hidden;
 }
 
@@ -930,24 +900,34 @@ p.note {
   .codrops-icon span {
     display: none;
   }
-  book-background {
+
+  .book-background {
     height: 900px;
     max-height: 100%;
   }
 
-  figcaption {
-  margin: auto;
+  .align{
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+    padding-left: 100px;
   }
 
-  figcaption p {
-    width: 515px;
+  figcaption {
+    padding: 0 100px 0 100px;
   }
+
 }
 
 @media screen and (max-width: 420px) {
   .book{
     display: block;
     margin: auto;
+  }
+
+  .book-background {
+    height: 1200px;
+    max-height: 100%;
   }
 
 }

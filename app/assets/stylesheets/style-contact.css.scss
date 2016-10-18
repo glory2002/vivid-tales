@@ -10,27 +10,23 @@
   max-width: 100%;
   height: 650px;
   max-height: 100%;
-  // display: none;
 }
 
 .adress-map-div{
-  width: 50%;
-  float: left;
-  margin-left: 4%;
+  margin-top: 50px;
+  padding: 0 0 0 80px;
 }
 
 .map{
   margin-top:-21px;
-  width: 546px;
-  height: 376px;
+  width: 100%;
+  height: 100%;
   border-radius: 3%;
   z-index: 50;
 }
 
 #one_marker{
-  margin-top: 8%;
   border-radius: 12px;
-  /*box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);*/
   border: solid #dbd9d9 2px;
 }
 
@@ -42,9 +38,7 @@
  }
 
 .form-div{
-  float: right;
-  margin-right: 5%;
-  margin-top: 2%;
+  padding: 30px 70px 0 50px;
 }
 
 .text-label{
@@ -55,10 +49,8 @@
 }
 
 .input-label{
-    width: 380px;
-    max-width: 100%;
+    width: 100%;
     padding: 12px 20px;
-    // margin-top: -5px;
     margin-bottom: -20px;
     display: inline-block;
     border: 1px solid #ccc;
@@ -68,10 +60,8 @@
 
 .input-message{
   height: 180px;
-  width: 380px;
-  max-width: 100%;
+  width: 100%;
   padding: 12px 20px;
-  // margin-top: -5px;
   margin-bottom: 12px;
   display: inline-block;
   border: 1px solid #ccc;
@@ -115,33 +105,25 @@ input[type=submit]:hover {
   .contact-bg-div{
     width: 911px;
     max-width: 100%;
-    height: 1084px;
+    height: 1200px;
     max-height: 100%;
   }
   .adress-map-div{
-    float: none;
     width: 100%;
-    margin: auto;
-    margin-top: 25px;
   }
+
   .title-adress{
-    text-align: center;
     margin-top: 20px;
   }
 
   #one_marker{
-    position: relative;
-    width: 500px;
-    max-width: 100%;
-    margin:auto;
+
   }
+
   .form-div{
-    position: relative;
-    left:25%;
-    margin:auto;
-    float: none;
-    display: block;
+    padding: 20px 80px 0 80px;
   }
+
   .all-inputs{
   text-align: center;
    display: block;
@@ -157,17 +139,14 @@ input[type=submit]:hover {
 }
 
   @media screen and (max-width:420px) {
-    #one_marker{
-      position: relative;
+    #one_marker {
       width: 500px;
-      max-width: 90%;
-      margin: 2px auto;
     }
-    .form-div{
+    .form-div {
       margin:auto;
       width: 90%;
     }
-    .contact-bg-div{
+    .contact-bg-div {
       height: 1130px;
       max-height: 100%;
     }

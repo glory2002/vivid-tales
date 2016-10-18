@@ -3,19 +3,19 @@
     <div class="bb-custom-wrapper">
       <div id="bb-bookblock" class="bb-bookblock">
         <div class="bb-item">
-          <%= image_tag("demo1/1.jpg", class: "picture", alt: "image01")%>
+          <%= render 'page1'%>
         </div>
         <div class="bb-item">
-          <%= image_tag("demo1/2.jpg", class: "picture", alt: "image02")%>
+          <%= render 'page2'%>
         </div>
         <div class="bb-item">
-          <%= image_tag("demo1/3.jpg", class: "picture", alt: "image03")%>
+          <%= render 'page3'%>
         </div>
         <div class="bb-item">
-          <%= image_tag("demo1/4.jpg", class: "picture", alt: "image04")%>
+          <%= render 'page4'%>
         </div>
         <div class="bb-item">
-          <%= image_tag("demo1/5.jpg", class: "picture", alt: "image05")%>
+          <%= render 'page5'%>
         </div>
       </div>
       <nav>
@@ -25,11 +25,11 @@
         <a id="bb-nav-last" href="#" class="bb-custom-icon bb-custom-icon-last">Last page</a>
       </nav>
 
-      <%= link_to "назад", home_thebook_path, class: "back"%>
+      <%= link_to t("book-b.back"), home_thebook_path, class: "back"%>
 
     </div>
   </div>
-</div><!-- /container -->
+</div>
 
 
 <script>

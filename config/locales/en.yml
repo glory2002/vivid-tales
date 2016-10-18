@@ -49,8 +49,8 @@ en:
     illustrator-name: "Melina-Elina Bondokova"
     illustrator-text: "She graduated animation in Sofia. For long years of practice he had failed to establish an authoritative name abroad and in Bulgaria as an illustrator of books and comic books (has released over 20). Some of her many short animated films have participated at various festivals in Bulgaria, Romania, Italy, UK."
   contact:
-    adress: '"Vivid Tiles" is published and distributed by Publisher "White Brotherhood"'
-    adress-two: 'Adress: Sofia, "Izgrev", „General Shteryu Atanasov“ 2 str.'
+    adress: 'Published and distributed by Publisher "White Brotherhood"'
+    adress-two: 'Sofia, "Izgrev", „General Shteryu Atanasov“ 2 str.'
     title: "Contacts"
     name: "Name"
     email: "Email"
@@ -62,3 +62,5 @@ en:
     email: "Еnter Your Email"
     subject: "Еnter Your Subject"
     message: "Еnter Your Message"
+  book-b:
+    back: "back"

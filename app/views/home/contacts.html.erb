@@ -1,17 +1,21 @@
 <div id="content">
   <div class="myAscensorFloor">
     <div class="contact-bg-div">
-      <div class="adress-map-div">
-        <div id="one_marker" style="width:550px; height:380px;">
-            <iframe src="https://maps.google.com/maps?q=42.671425,23.3482661&z=18&output=embed" class="map" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <div class = "row">
+        <div class="col-sm-12 col-md-4 col-lg-7">
+          <div class="adress-map-div">
+            <div id="one_marker" style="width:550px; height:380px;">
+                <iframe src="https://maps.google.com/maps?q=42.671425,23.3482661&z=18&output=embed" class="map" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <h3 class = "contact-title"><%= t("contact.title")%></h1>
+            <h3 class="title-adress"><%= t("contact.adress") %></h3>
+            <h3 class="title-adress"><%= t("contact.adress-two") %></h3>
+          </div>
         </div>
-        <h3 class = "contact-title"><%= t("contact.title")%></h1>
-        <h3 class="title-adress"><%= t("contact.adress") %></h3>
-        <h3 class="title-adress"><%= t("contact.adress-two") %></h3>
-      </div>
 
-      <div class="form-div">
-      <%= render "contacts/new" %>
+        <div class="col-sm-12 col-md-4 col-lg-5">
+        <%= render "contacts/new" %>
+        </div>
       </div>
     </div>
   </div>
