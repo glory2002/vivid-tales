@@ -7,7 +7,7 @@
               <%= image_tag("Glory.jpg", class: 'photo-author', alt: "image_autor")%>
           </div>
           <div class = "all">
-            <p class="par">АВТОР</p>
+            <p class="par"><%= t ("author.title") %></p>
             <span class="paragraph-title"><%= t ("author.author-name") %></span>
             <p class="text-large"><%= t ("author.author-text") %></p>
           </div>
@@ -18,7 +18,7 @@
             <%= image_tag("Eli.jpg", class: 'photo-illustrator', alt: "image_illustrator")%>
           </div>
           <div class = "all">
-            <p class="par">ИЛЮСТРАТОР</p>
+            <p class="par"><%= t ("author.title-ill") %></p>
             <span class="paragraph-title"><%= t("author.illustrator-name") %></span>
             <p class="text-large"><%= t("author.illustrator-text") %></p>
           </div>

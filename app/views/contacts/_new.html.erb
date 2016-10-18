@@ -9,19 +9,19 @@
 
   <!-- <%= f.label t ("contact.email"), class:"text-label" %> -->
   <br>
-  <%= f.text_field :email, requested: true, class:"input-label", placeholder: "Enter Your Email" %>
+  <%= f.text_field :email, requested: true, class:"input-label", placeholder: t("helpers.email") %>
 
   <br>
 
   <!-- <%= f.label t ("contact.about"), class:"text-label" %> -->
   <br>
-  <%= f.text_field :about, requested: true, class:"input-label",  placeholder: "Enter Your Subject" %>
+  <%= f.text_field :about, requested: true, class:"input-label",  placeholder: t("helpers.subject") %>
 
   <br>
 
   <!-- <%= f.label t ("contact.message"), class:"text-label" %> -->
   <br>
-  <%= f.text_area :message, as: :text, class:"input-message",  placeholder: "Enter Your Message" %>
+  <%= f.text_area :message, as: :text, class:"input-message",  placeholder: t("helpers.message") %>
 
   <br>
 

@@ -42,19 +42,12 @@ en:
       The book transports us into a fantasy world - Kingdom Beeland. Inspired by the bees as beings of a higher order it gives impetus children to believe in your dreams, to travel and to be brave."
     main-two: "The Vivid Tales reflects the ideas of Sun Pedagogy - a system of principles that creates the basis for reimbursement of living and conscious relationship with nature. These pedagogical ideas are left by the Master Beinsa Duno and are aimed at improvement of the child's soul."
   author:
+    title: "AUTHOR"
     author-name: "Gloria Angelova"
-    author-text: "Завърила Инжинерен Дизайн в София и
-      в момента работи като графичен дизайнер.
-      Има интереси в областта на дизайна, писането и музиката.
-      Творчеството под различна форма запълва ежедневието й с предизвикателството да открива и да създава нещо красиво всеки ден."
+    author-text: "She graduate Design engineers in Sofia and currently works as a graphic designer. She has interests in design, writing and music. Creativity in various forms fills her daily life with the challenge to find and create something beautiful every day."
+    title-ill: "ILLUSTRATOR"
     illustrator-name: "Melina-Elina Bondokova"
-    illustrator-text: "Завършва анимация в София.
-      За дългите години практика е успяла да установи авторитетно
-       име в чужбина и в България като илюстратор на книги и
-      комикси (има издадени над 20). Някои от многото й
-      късометражни анимационни филми са взимали участие на
-      различни фестивали в България, Румъния, Италия,
-      Великобритания."
+    illustrator-text: "She graduated animation in Sofia. For long years of practice he had failed to establish an authoritative name abroad and in Bulgaria as an illustrator of books and comic books (has released over 20). Some of her many short animated films have participated at various festivals in Bulgaria, Romania, Italy, UK."
   contact:
     adress: '"Vivid Tiles" is published and distributed by Publisher "White Brotherhood"'
     adress-two: 'Adress: Sofia, "Izgrev", „General Shteryu Atanasov“ 2 str.'
@@ -65,4 +58,7 @@ en:
     message: "Message"
     send: "send"
   helpers:
-    name: "Въведи Име"
+    name: "Еnter Your Name"
+    email: "Еnter Your Email"
+    subject: "Еnter Your Subject"
+    message: "Еnter Your Message"
