@@ -1,4 +1,5 @@
 <div class = "create-contact">
-  <h1 class = 'create-title'>Благодаря за вашето съобщение.</h1>
-  <div class="text-button"><%= link_to t("contact.back"), home_thebook_path, class:"menu-text-btn" %></div>
+  <h1 class = 'create-title'><%= t ('contact.create-title') %></h1>
+  <p class = "create-p"><%= t ('contact.paragraph') %></p>
+  <div class="create-back-btn"><%= link_to t("contact.back"), home_contacts_path, class:"menu-text-btn" %></div>
 </div>

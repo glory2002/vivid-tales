@@ -58,6 +58,8 @@ en:
     message: "Message"
     send: "send"
     back: "back"
+    create-title: "Thank you for your message."
+    paragraph: "I'll get back to you soon."
   helpers:
     name: "Еnter Your Name"
     email: "Еnter Your Email"

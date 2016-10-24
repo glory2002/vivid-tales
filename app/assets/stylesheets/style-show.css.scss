@@ -27,7 +27,24 @@
 }
 
 .create-title {
-  font-size: 30px;
+  font-size: 39px;
+  font-family: Sunday-Regular;
+  text-align: center;
+  margin-top: 88px;
+}
+
+.create-p {
+  font-size: 22px;
   font-family: Open Sans, sans-serif;
-  margin: auto;
+  text-align: center;
+  margin-top: 34px;
+}
+
+.create-back-btn{
+  background-color: #fc4f00;
+  border-radius: 30px;
+  padding: 12px;
+  margin: 84px 360px 0px 360px;
+  text-align: center;
+  cursor: pointer;
 }

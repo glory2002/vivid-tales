@@ -77,6 +77,8 @@ bg:
     message: "Събщение"
     send: "изпрати"
     back: "назад"
+    create-title: "Благодаря за вашето съобщение."
+    paragraph: "Скоро ще се свържем с вас."
   helpers:
     name: "Име"
     email: "Емейл"
