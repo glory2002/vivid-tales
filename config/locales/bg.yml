@@ -76,6 +76,7 @@ bg:
     about: "Относно"
     message: "Събщение"
     send: "изпрати"
+    back: "назад"
   helpers:
     name: "Име"
     email: "Емейл"

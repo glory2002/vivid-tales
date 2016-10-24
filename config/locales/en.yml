@@ -57,6 +57,7 @@ en:
     about: "About"
     message: "Message"
     send: "send"
+    back: "back"
   helpers:
     name: "Еnter Your Name"
     email: "Еnter Your Email"

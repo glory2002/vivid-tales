@@ -9,8 +9,8 @@ class ContactsController < ApplicationController
     if @contact.deliver
       flash.now[:error] = nil
     else
-      flash.now[:error] = 'Cannot send message.'
-      render :new
+      flash.now[:error] = 'Съобщението не може да бъде изпратено.'
+      render 'new'
     end
   end
 end
