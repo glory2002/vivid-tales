@@ -41,7 +41,7 @@ class HomeController < ApplicationController
       flash.now[:error] = nil
     else
       flash.now[:error] = 'Съобщението не може да бъде изпратено.'
-      render :new
+      redirect_to contacts_path
     end
     render "contacts/new"
   end
