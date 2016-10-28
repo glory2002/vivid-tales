@@ -156,19 +156,17 @@ body{
   border-style: dashed;
   border-color: #fc4f00;
   background-color: rgba(255, 255, 255, 1);
-  margin: auto;
   margin-top: 230px;
-  width: 500px;
+  width: 600px;
   max-width: 100%;
   height: 650px;
   max-height: 100%;
-  // display: none;
 }
 
 .first-title{
   font-family: Sunday-Regular;
   font-size: 55px;
-  padding: 0px 138px 0px 42px;
+  padding: 0px 118px 0px 55px;
   margin-top: 29px;
   line-height: 150%;
 }
@@ -183,15 +181,16 @@ body{
   font-family: Open Sans;
   font-size: 20px;
   margin-top: 32px;
-  padding: 0 41px 0 41px;
+  padding: 0 55px 0 55px;
   line-height: 180%;
+  text-align: justify;
 }
 
 .text-button{
   background-color: #fc4f00;
   border-radius: 30px;
   padding: 12px;
-  margin: 47px 145px 0px 145px;
+  margin: 47px 174px 0px 174px;
   text-align: center;
   cursor: pointer;
 }
@@ -252,6 +251,15 @@ body{
 }
 
 @media screen and (max-width: 991px){
+    .inner-content{
+      height: 1200px;
+      max-height: 100%;
+    }
+
+    .text-main{
+      font-size: 33px;
+    }
+
     #logo{
       margin-left: 10%;
     }
