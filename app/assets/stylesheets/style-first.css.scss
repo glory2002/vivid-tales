@@ -18,7 +18,7 @@
  *= require font-awesome
  */
 body{
- background-image:  image-url("Roq.png"),  image-url("Jako.png"),  image-url("BG.jpg");
+ background-image:  image-url("Roq.png"),  image-url("Jako.png"),  image-url("BG_land.jpg");
  background-size: 70%, 70%, cover;
  margin: 0;
  padding: 0;
@@ -149,6 +149,15 @@ body{
   margin-top: 200px;
 }
 
+.copyright-link {
+  color: black;
+  text-decoration: none;
+}
+.copyright-link:hover {
+  color: #fc4f00;
+  text-decoration: none;
+}
+
 /*NACHALO*/
 .inner-content {
   box-shadow: 0 0 0 21px rgba(255, 255, 255, 1);
@@ -190,7 +199,7 @@ body{
   background-color: #fc4f00;
   border-radius: 30px;
   padding: 12px;
-  margin: 47px 174px 0px 174px;
+  margin: 47px 193px 0px 193px;
   text-align: center;
   cursor: pointer;
 }

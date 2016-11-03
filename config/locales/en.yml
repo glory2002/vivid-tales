@@ -27,7 +27,7 @@ en:
     menu-three: "Idea"
     menu-four: "Autor"
     menu-five: "Contacts"
-    text-home: "Here you will discover the most vivid tales and not only they are colored in yellow, green and orange, but because they smell like spring and anventures. In the Story One you will read about..."
+    text-home: "The Kingdom of the Vivid Tales. Not only because of their vibrant use of yellow, green and orange, but because they emit the smell of spring and adventure. The first story is about the princess bee Roya and drone Jacko. If you want to find out more click below and it will take you into the enchanting world of Pchelandia."
     more-button: "learn more"
   book:
     see-button: "WATCH"
@@ -38,16 +38,15 @@ en:
     quote: '"You know, Jacko… now I understand how good it is to fly far away from home so as to look forward to going back."'
   idea:
     title: "The Idea"
-    main: "Music, Nature and Flours make the pages of this book colorfull.
-      The book transports us into a fantasy world - Kingdom Beeland. Inspired by the bees as beings of a higher order it gives impetus children to believe in your dreams, to travel and to be brave."
-    main-two: "The Vivid Tales reflects the ideas of Sun Pedagogy - a system of principles that creates the basis for reimbursement of living and conscious relationship with nature. These pedagogical ideas are left by the Master Beinsa Duno and are aimed at improvement of the child's soul."
+    main: "Music, Nature and Flowers make the vivid and colourful pages of this book come alive. The book transfers us into a fantasy world - Kingdom Beeland. Inspired by the bees as beings of a higher order, it impulses children to believe in dreams, to travel and to be brave."
+    main-two: "The Vivid Tales reflect the ideas of the Sun Pedagogy - a system of principles that creates the base for reimbursement of the living and conscious relationship with nature. These pedagogical ideas are left behind by Master Beinsa Duno and are aimed at the improvement of the child's soul."
   author:
     title: "AUTHOR"
     author-name: "Gloria Angelova"
-    author-text: "She graduate Design engineers in Sofia and currently works as a graphic designer. She has interests in design, writing and music. Creativity in various forms fills her daily life with the challenge to find and create something beautiful every day."
+    author-text: "Gloria Angelova Graduate Design Engineer from Sofia that currently works as a graphic designer. She has interests in design, writing and music. Creativity in various forms fill her daily life, with the challenge of discovering and creating something beautiful every day."
     title-ill: "ILLUSTRATOR"
     illustrator-name: "Melina-Elina Bondokova"
-    illustrator-text: "She graduated animation in Sofia. For long years of practice he had failed to establish an authoritative name abroad and in Bulgaria as an illustrator of books and comic books (has released over 20). Some of her many short animated films have participated at various festivals in Bulgaria, Romania, Italy, UK."
+    illustrator-text: "Melina-Elina Bondokova Graduate animator from Sofia. After years of practice she had failed to establish a name for herself as an illustrator of graphic novels and comic books, both abroad and in Bulgaria (having released over twenty). Some of her many short animated films have participated at various festivals in Bulgaria, Romania, Italy and the UK."
   contact:
     adress: 'Published and distributed by Publisher "White Brotherhood"'
     adress-two: 'Sofia, "Izgrev", „General Shteryu Atanasov“ 2 str.'
@@ -67,3 +66,5 @@ en:
     message: "Еnter Your Message"
   book-b:
     back: "back"
+  footer:
+    copyright: "© 2016 Vivid Tales - all rights reserved. Created by "
