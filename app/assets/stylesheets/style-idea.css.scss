@@ -6,17 +6,19 @@
   background-color: rgba(255, 255, 255, 1);
   margin: auto;
   margin-top: 230px;
-  width: 1100px;
+  width: 1000px;
   max-width: 100%;
   height: 650px;
   max-height: 100%;
+  z-index:5;
 }
 
 .image-div {
-  float:left;
+  display: block;
+  margin: auto;
   width: 300px;
   max-width: 100%;
-  height: 300px;
+  height: 230px;
   max-height: 100%;
 }
 
@@ -30,29 +32,26 @@
 }
 
 .text {
-  padding-left: 100px;
+  padding: 0 80px 0 80px;
   text-align: justify;
-  margin-top: 5%;
 }
 
 .p-title {
-  margin: 0;
+  margin-bottom: 30px;
+  text-align: center;
   font-family: Sunday-Regular;
   font-weight: 500;
   font-size: 26px;
   color: #fc4f00;
-  margin-left: 21%;
 }
 
 .p-text{
   color: black;
   font-family: Open Sans;
-  font-size: 20px;
+  font-size: 19px;
   text-align: justify;
   margin-top: 12px;
-  margin-right: 13%;
-  margin-left: 21%;
-  line-height: 180%;
+  line-height: 165%;
 }
 
 @media screen and (max-width: 991px){

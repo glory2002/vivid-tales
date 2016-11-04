@@ -2,11 +2,9 @@
   <div class="container-fluid">
     <div class="inside-header">
       <div class="row">
-        <div class="inside-header-left">
-          <%= render 'logo' %>
-        </div>
-        <div class="inside-header-right">
-          <ul class="fb-en-ul fb-resp clearfix">
+
+        <div class="header-left">
+          <!-- <ul class="fb-en-ul fb-resp clearfix">
             <li class="fb-en"><%= link_to "f", "https://www.facebook.com/pchelandia/", class: "f-button" %></li>
             <li class="fb-en">
               <%
@@ -16,11 +14,10 @@
               %>
               <%= link_to toggle_locale, "#{current_path}", class: "en-button" %>
             </li>
-          </ul>
+          </ul> -->
 
           <i id="nav_bar_toggle" class="fa fa-bars fa-2x visible-sm visible-xs pull-right menu-hamburger navbar-toggle" aria-hidden="true"></i>
 
-          <div class="all-menu-buttons clearfix">
             <nav class="navigation">
               <div id="main_nav_bar" class="nav-bar hidden-xs hidden-sm">
                 <ul class="links-to-floor clearfix">
@@ -32,8 +29,23 @@
                 </ul>
               </div>
             </nav>
-          </div>
         </div>
+        <div class = "header-right">
+          <ul class="fb-en-ul fb-resp clearfix">
+            <li class="fb-en"><%= link_to "f", "https://www.facebook.com/pchelandia/", class: "f-button" %></li>
+            <li class="fb-en">
+              <%
+                current_locale = I18n.locale
+                toggle_locale  = current_locale == :en ? 'bg' : 'en'
+                current_path   = request.path.sub(current_locale.to_s, toggle_locale)
+              %>
+              <%= link_to toggle_locale, "#{current_path}", class: "en-button" %>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="">
+        <%= render 'logo' %>
       </div>
     </div>
   </div>

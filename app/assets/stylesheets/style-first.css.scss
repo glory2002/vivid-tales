@@ -14,11 +14,9 @@
   font-family: 'Sunday-Regular';
   src: url('Sunday-Regular.otf');
 }
-/*
- *= require font-awesome
- */
+
 body{
- background-image:  image-url("Roq.png"),  image-url("Jako.png"),  image-url("BG_land.jpg");
+ background-image:  image-url("Roq.png"),  image-url("Jako.png"),  image-url("BG-spring.jpg");
  background-size: 70%, 70%, cover;
  margin: 0;
  padding: 0;
@@ -28,25 +26,37 @@ body{
  }
 
 .div-header{
-  background-color: white;
   width: 100%;
-  height: 120px;
+  height: 175px;
   position: fixed;
   top: 0px;
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
   z-index: 10;
+  background:inherit;
 }
 
 .inside-header{
-  max-width: 1200px;
+  max-width: 900px;
   height: 120px;
   margin: auto;
 }
 
 #logo{
-  width: 33%;
+  width: 23%;
   min-width: 320px;
-  margin-top: 32px;
+  padding-top: 36px;
+  display:block;
+  margin:auto;
+}
+
+.header-left {
+  float:left;
+  display: block;
+}
+
+.header-right {
+  margin-top: 8px;
+  float:right;
+  display: block;
 }
 
 .fb-en{
@@ -115,8 +125,8 @@ body{
 
 .links-to-floor > li{
   float: left;
-  padding: 11px;
-  font-family: Open Sans, sans-serif;
+  padding: 30px 35px 0 35px;  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
   font-size: 20px;
 }
 
@@ -166,32 +176,42 @@ body{
   border-color: #fc4f00;
   background-color: rgba(255, 255, 255, 1);
   margin-top: 230px;
-  width: 600px;
+  width: 900px;
   max-width: 100%;
   height: 650px;
   max-height: 100%;
+  z-index:5;
+  overflow:auto;
 }
 
-.first-title{
+.first-title {
+  text-transform: uppercase;
   font-family: Sunday-Regular;
-  font-size: 55px;
-  padding: 0px 118px 0px 55px;
-  margin-top: 29px;
-  line-height: 150%;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.second-title {
+  text-align: center;
+  font-family: Open Sans;
+  font-style: oblique;
+  font-size: 25px;
 }
 
 .pchelandia{
   color: #fc4f00;
-  font-size: 65px;
+  font-size: 40px;
   margin-top: 15px;
 }
 
 .text-main{
   font-family: Open Sans;
-  font-size: 20px;
-  margin-top: 32px;
-  padding: 0 55px 0 55px;
-  line-height: 180%;
+  font-size: 19px;
+  color:black;
+  margin-top: 60px;
+  padding: 0 160px 0 160px;
+  line-height: 165%;
   text-align: justify;
 }
 
@@ -199,7 +219,7 @@ body{
   background-color: #fc4f00;
   border-radius: 30px;
   padding: 12px;
-  margin: 47px 193px 0px 193px;
+  margin: 47px 350px 0px 350px;
   text-align: center;
   cursor: pointer;
 }

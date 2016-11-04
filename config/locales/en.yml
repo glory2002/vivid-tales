@@ -22,33 +22,34 @@
 en:
   home:
     html: "Welcome to <span class='pchelandia'>BeeLand</span>"
-    menu-one: "Home"
-    menu-two: "Book"
-    menu-three: "Idea"
-    menu-four: "Autor"
-    menu-five: "Contacts"
-    text-home: "The Kingdom of the Vivid Tales. Not only because of their vibrant use of yellow, green and orange, but because they emit the smell of spring and adventure. The first story is about the princess bee Roya and drone Jacko. If you want to find out more click below and it will take you into the enchanting world of Pchelandia."
+    sub-title: "The Kingdom of the Vivid Tales"
+    menu-one: "HOME"
+    menu-two: "BOOK"
+    menu-three: "IDEA"
+    menu-four: "AUTHOR"
+    menu-five: "CONTACTS"
+    text-home: "The stories are vivid not only because of their vibrant use of yellow, green and orange, but because they emit the smell of spring and adventure. The first story is about the princess bee Roya and drone Jacko. If you want to find out more click below and it will take you into the enchanting world of Pchelandia."
     more-button: "learn more"
   book:
     see-button: "WATCH"
     order-button: "ORDER"
     title: "Vivid Tales"
-    sub-title: "STORY ONE: IN SEARCH OF THE LOST SPRING"
+    sub-title: "Story One: In search of the lost spring"
     body: "It is the dream of a little bee that brings her to a magical place. She finds herself in a fairy forest where the music heals, and the songs make spirits brighter. While on her way, she meets a friend on whom she can always rely. She then understands that the drones are not always lazy and annoying but can be good friends too, as they entertain and cheer you up even when you are feeling incredibly sad. "
     quote: '"You know, Jacko… now I understand how good it is to fly far away from home so as to look forward to going back."'
   idea:
-    title: "The Idea"
+    title: "The Idea for the music, nature and flowers"
     main: "Music, Nature and Flowers make the vivid and colourful pages of this book come alive. The book transfers us into a fantasy world - Kingdom Beeland. Inspired by the bees as beings of a higher order, it impulses children to believe in dreams, to travel and to be brave."
     main-two: "The Vivid Tales reflect the ideas of the Sun Pedagogy - a system of principles that creates the base for reimbursement of the living and conscious relationship with nature. These pedagogical ideas are left behind by Master Beinsa Duno and are aimed at the improvement of the child's soul."
   author:
-    title: "AUTHOR"
+    title: "Author"
     author-name: "Gloria Angelova"
     author-text: "Gloria Angelova Graduate Design Engineer from Sofia that currently works as a graphic designer. She has interests in design, writing and music. Creativity in various forms fill her daily life, with the challenge of discovering and creating something beautiful every day."
-    title-ill: "ILLUSTRATOR"
+    title-ill: "Illustrator"
     illustrator-name: "Melina-Elina Bondokova"
     illustrator-text: "Melina-Elina Bondokova Graduate animator from Sofia. After years of practice she had failed to establish a name for herself as an illustrator of graphic novels and comic books, both abroad and in Bulgaria (having released over twenty). Some of her many short animated films have participated at various festivals in Bulgaria, Romania, Italy and the UK."
   contact:
-    adress: 'Published and distributed by Publisher "White Brotherhood"'
+    adress: 'Vivid Tales is published and distributed by Publisher "White Brotherhood"'
     adress-two: 'Sofia, "Izgrev", „General Shteryu Atanasov“ 2 str.'
     title: "Contacts"
     name: "Name"

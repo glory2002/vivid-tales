@@ -1,29 +1,25 @@
 <div id="content">
     <!-- <div id="ascensorFloor4" class="myAscensorFloor"> -->
       <div class="autor">
-        <div class="row">
+        <div class="all-ellements row">
         <div class = "all-author col-sm-12 col-md-6 col-lg-6">
-           <div class="clearfix visible-sm-block"></div>
+          <!-- <div class="clearfix visible-sm-block"></div> -->
           <div class = "box-author">
-              <%= image_tag("Glory.jpg", class: 'photo-author', alt: "image_autor")%>
+              <%= image_tag("Glory.jpg", class: 'photo', alt: "image_autor")%>
           </div>
-          <div class = "all">
-            <span class="paragraph-title"><%= t ("author.author-name") %></span>
-            <p class="par"><%= t ("author.title") %></p>
+            <h1 class = "a-name"><span class="paragraph-title"><%= t ("author.author-name") %></span></h1>
+            <h2 class="title-two"><%= t ("author.title") %></h2>
             <p class="text-large"><%= t ("author.author-text") %></p>
-          </div>
         </div>
 
         <div class = "all-illustrator col-sm-12 col-md-6 col-lg-6">
-           <div class="clearfix visible-sm-block"></div>
+          <!-- <div class="clearfix visible-sm-block"></div> -->
           <div class = "box-illustrator">
-            <%= image_tag("Eli.jpg", class: 'photo-illustrator', alt: "image_illustrator")%>
+            <%= image_tag("Eli.jpg", class: 'photo', alt: "image_illustrator")%>
           </div>
-          <div class = "all">
-            <p class="par"><%= t ("author.title-ill") %></p>
-            <span class="paragraph-title"><%= t("author.illustrator-name") %></span>
+            <h1 class = "a-name"><span class="paragraph-title"><%= t("author.illustrator-name") %></span></h1>
+            <h2 class="title-two"><%= t ("author.title-ill") %></h2>
             <p class="text-large"><%= t("author.illustrator-text") %></p>
-          </div>
         </div>
       </div>
     </div>

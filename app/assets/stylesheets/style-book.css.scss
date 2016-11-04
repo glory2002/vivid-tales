@@ -6,11 +6,11 @@
   background-color: rgba(255, 255, 255, 1);
   margin: auto;
   margin-top: 230px;
-  width: 1100px;
+  width: 1000px;
   max-width: 100%;
   height: 650px;
   max-height: 100%;
-  // display: none;
+  z-index:5;
 }
 
 
@@ -698,10 +698,6 @@ a {
 figcaption {
   padding-right: 100px;
   text-align: left;
-  // position: relative;
-  // top: -227px;
-  // left: 137px;
-  // width: 720px;
   margin-top: 70px;
   -webkit-backface-visibility: hidden;
 }
@@ -718,18 +714,18 @@ figcaption span {
   color: #fc4f00;
   padding: 0.6em 0 1em 0;
   display: block;
-  font-size: 17px;
-  font-family: Sunday-Regular;
+  font-family: Open Sans;
+  font-style: oblique;
+  font-size: 25px;
 }
 
 figcaption p {
   color: black;
-  line-height: 1.4;
   font-family: Open Sans;
-  font-size: 20px;
+  font-size: 19px;
   text-align: justify;
   margin-top: 12px;
-  line-height: 180%;
+  line-height: 165%;
 }
 
 figcaption p q {
