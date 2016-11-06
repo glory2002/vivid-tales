@@ -8,14 +8,14 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <script scr="//cdn.rawgit.com/mahnunchik/markerclustererplus/master/dist/markerclusterer.min.js"></script>
-  <%= favicon_link_tag "Roq.png"%>
+  <%= favicon_link_tag "favi.png"%>
   <script src="jquery.ascensor.min.js" type="text/javascript"></script>
 </head>
 <body>
   <%= yield(:header) %>
   <%= yield %>
-  <div class="footer">
-    <p class="copyright"><%= t ('footer.copyright') %><a class = "copyright-link" href="http://gloryangelova.com/" target="_blank">Gloria Angelova</a></p>
-  </div>
+  <footer>
+    <div class="container"><%= t ('footer.copyright') %><a class = "copyright-link" href="http://gloryangelova.com/" target="_blank">Gloria Angelova</a></div>
+  </footer>
 </body>
 </html>

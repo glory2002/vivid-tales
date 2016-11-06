@@ -14,12 +14,20 @@
   font-family: 'Sunday-Regular';
   src: url('Sunday-Regular.otf');
 }
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 body{
- background-image:  image-url("Roq.png"),  image-url("Jako.png"),  image-url("BG-spring.jpg");
- background-size: 70%, 70%, cover;
+ display: table;
+ height: 100%;
+ width: 100%;
  margin: 0;
  padding: 0;
+ background-image:  image-url("Roq.png"),  image-url("Jako.png"),  image-url("BG-spring.jpg");
+ background-size: 70%, 70%, cover;
  background-attachment: fixed;
  background-position: 186% 318px, -108% 250px, center;
  background-repeat: no-repeat;
@@ -149,20 +157,22 @@ body{
   color: #fc4f00;
 }
 
-.centered-white{
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 12px;
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 500px;
-  height: 600px;
-  margin: auto;
-  margin-top: 200px;
+footer {
+  display: table-row;
+  height: 1px;
+  width:100%;
+  text-align: center;
+}
+
+.container {
+  height: auto;
 }
 
 .copyright-link {
   color: black;
   text-decoration: none;
 }
+
 .copyright-link:hover {
   color: #fc4f00;
   text-decoration: none;
@@ -170,18 +180,17 @@ body{
 
 /*NACHALO*/
 .inner-content {
+  height: auto;
   box-shadow: 0 0 0 21px rgba(255, 255, 255, 1);
   border-radius: 12px;
   border-style: dashed;
   border-color: #fc4f00;
   background-color: rgba(255, 255, 255, 1);
   margin-top: 230px;
-  width: 900px;
+  width: 80%;
   max-width: 100%;
-  height: 650px;
   max-height: 100%;
   z-index:5;
-  overflow:auto;
 }
 
 .first-title {
@@ -210,7 +219,7 @@ body{
   font-size: 19px;
   color:black;
   margin-top: 60px;
-  padding: 0 160px 0 160px;
+  padding: 0 20% 0 20%;
   line-height: 165%;
   text-align: justify;
 }
@@ -219,7 +228,7 @@ body{
   background-color: #fc4f00;
   border-radius: 30px;
   padding: 12px;
-  margin: 47px 350px 0px 350px;
+  margin: 8% 40% 10% 40%;
   text-align: center;
   cursor: pointer;
 }
@@ -257,18 +266,6 @@ body{
   margin: 20px;
 }
 
-.footer{
- position: relative;
-  bottom: 0;
-  top: 80px;
- width: 100%;
- display: block;
-}
-
-.copyright{
-  text-align: center;
-}
-
 .inside-header-left {
   width:40%;
   float:left;
@@ -280,17 +277,12 @@ body{
 }
 
 @media screen and (max-width: 991px){
-    .inner-content{
-      height: 1200px;
-      max-height: 100%;
-    }
 
-    .text-main{
-      font-size: 33px;
-    }
-
-    #logo{
-      margin-left: 10%;
+    // .text-main{
+    //   font-size: 33px;
+    // }
+    html{
+      font-size: 100%;
     }
 
     .fb-en-ul li{

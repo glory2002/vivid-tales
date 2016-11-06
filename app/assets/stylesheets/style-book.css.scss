@@ -6,9 +6,8 @@
   background-color: rgba(255, 255, 255, 1);
   margin: auto;
   margin-top: 230px;
-  width: 1000px;
+  width: 90%;
   max-width: 100%;
-  height: 650px;
   max-height: 100%;
   z-index:5;
 }
@@ -698,7 +697,8 @@ a {
 figcaption {
   padding-right: 100px;
   text-align: left;
-  margin-top: 70px;
+  margin-top: 10%;
+  margin-bottom: 20%;
   -webkit-backface-visibility: hidden;
 }
 
@@ -897,11 +897,6 @@ p.note {
     display: none;
   }
 
-  .book-background {
-    height: 900px;
-    max-height: 100%;
-  }
-
   .align{
     display: block;
     margin: auto;
@@ -910,7 +905,7 @@ p.note {
   }
 
   figcaption {
-    padding: 0 100px 0 100px;
+    padding: 0 10% 0 10%;
   }
 
 }
@@ -919,11 +914,6 @@ p.note {
   .book{
     display: block;
     margin: auto;
-  }
-
-  .book-background {
-    height: 1200px;
-    max-height: 100%;
   }
 
 }
