@@ -44,14 +44,19 @@ body{
 
 .inside-header{
   max-width: 900px;
-  height: 120px;
+  height: 100px;
   margin: auto;
+}
+
+.logo-div{
+  position: fixed;
+  top: 100px;
+  z-index: -10;
 }
 
 #logo{
   width: 23%;
   min-width: 320px;
-  padding-top: 36px;
   display:block;
   margin:auto;
 }
@@ -119,8 +124,6 @@ body{
 
 .navigation {
   float: right;
-  margin-right: 0px;
-  margin-top: -25px;
 }
 
 .nav-bar{
@@ -133,7 +136,8 @@ body{
 
 .links-to-floor > li{
   float: left;
-  padding: 30px 35px 0 35px;  font-family: 'Open Sans', sans-serif;
+  padding: 30px 40px 0 40px;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 20px;
 }
@@ -252,35 +256,13 @@ footer {
   color: white;
 }
 
-.menu-text{
-  text-decoration: none;
-  color: black;
-}
-
-.open{
-  display: block !important;
-  margin-top: 50px;
-}
-
 .menu-hamburger{
   margin: 20px;
 }
 
-.inside-header-left {
-  width:40%;
-  float:left;
-}
-
-.inside-header-right {
-  width:60%;
-  float:left;
-}
 
 @media screen and (max-width: 991px){
 
-    // .text-main{
-    //   font-size: 33px;
-    // }
     html{
       font-size: 100%;
     }
@@ -294,32 +276,44 @@ footer {
       margin-right: 14px;
     }
 
-    .inside-header-right {
-      position:absolute;
-      width:100%;
-      z-index:5;
-      top:15px;
-      left:0;
+    .hamburger-div{
+      float: left;
+    }
+
+    .menu-hamburger {
+      float:left;
     }
 
     .navigation {
       float:none;
+      margin-top: 100px;
     }
 
-    .all-menu-buttons{
-      float: none;
-      margin-top:60px;
-      background: white;
-    }
-
-    .menu-all{
+    .menu-tag{
+      text-align: center;
       width: 100%;
-    }
-
-    .nav-toggle-li{
       background: white;
       float: none;
       color: black;
+    }
+
+    .links-to-floor > li {
+      padding: 30px 0 30px 0;
+
+    }
+
+    .links-to-floor > li:hover {
+      background-color: #fffcdb;
+    }
+
+    .links-to-floor {
+      height: 0px;
+      overflow: hidden;
+      transition: height 0.4s;
+    }
+
+    .open {
+     height: 100%;
     }
 
     .fb-resp{
@@ -331,26 +325,9 @@ footer {
       margin-top: 80px;
     }
 
-    .align > li{
-      display: inline;
-      float: none;
-    }
-
-    .figcaption{
-      position: absolute;
-      left: 0px;
-    }
   }
 
   @media screen and (max-width:420px) {
-    .inside-header-left {
-      text-align:center;
-      width:100%;
-    }
-    .inside-header-right {
-      top:95px;
-      background: white;
-    }
 
     .fb-resp {
       float:left;
@@ -383,9 +360,6 @@ footer {
       font-size: 49px;
     }
 
-    .text-button{
-      margin: 31px 80px 0px 80px;
-    }
     .align > li{
       display: inline;
       float: none;
@@ -398,6 +372,5 @@ footer {
 
     .book{
       margin: auto;
-
     }
   }

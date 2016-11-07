@@ -4,31 +4,21 @@
       <div class="row">
 
         <div class="header-left">
-          <!-- <ul class="fb-en-ul fb-resp clearfix">
-            <li class="fb-en"><%= link_to "f", "https://www.facebook.com/pchelandia/", class: "f-button" %></li>
-            <li class="fb-en">
-              <%
-                current_locale = I18n.locale
-                toggle_locale  = current_locale == :en ? 'bg' : 'en'
-                current_path   = request.path.sub(current_locale.to_s, toggle_locale)
-              %>
-              <%= link_to toggle_locale, "#{current_path}", class: "en-button" %>
-            </li>
-          </ul> -->
+          <div class = "hamburger-div">
+            <i id="nav_bar_toggle" class="fa fa-bars fa-2x visible-sm visible-xs pull-right menu-hamburger navbar-toggle" aria-hidden="true"></i>
+          </div>
 
-          <i id="nav_bar_toggle" class="fa fa-bars fa-2x visible-sm visible-xs pull-right menu-hamburger navbar-toggle" aria-hidden="true"></i>
-
-            <nav class="navigation">
-              <div id="main_nav_bar" class="nav-bar hidden-xs hidden-sm">
-                <ul class="links-to-floor clearfix">
-                  <li class="menu-tag nav-toggle-li"><%= link_to t("home.menu-one"), home_index_path, id: "current_link", class: "menu-text #{current_page?(home_index_path) ? "current" : nil }" %></li>
-                  <li class="menu-tag nav-toggle-li"><%= link_to t("home.menu-two"), home_thebook_path, id: "current_link", class: "menu-text #{current_page?(home_thebook_path) ? "current" : nil }" %></li>
-                  <li class="menu-tag nav-toggle-li"><%= link_to t("home.menu-three"), home_idea_path, id: "current_link", class: "menu-text #{current_page?(home_idea_path) ? "current" : nil }" %></li>
-                  <li class="menu-tag nav-toggle-li"><%= link_to t("home.menu-four"), home_autor_path, id: "current_link", class: "menu-text #{current_page?(home_autor_path) ? "current" : nil }" %></li>
-                  <li class="menu-tag nav-toggle-li"><%= link_to t("home.menu-five"), home_contacts_path, id: "current_link", class: "menu-text #{current_page?(home_contacts_path) ? "current" : nil }" %></li>
-                </ul>
-              </div>
-            </nav>
+          <nav class="navigation">
+            <!-- <div id="main_nav_bar" class="nav-bar hidden-xs hidden-sm"> -->
+              <ul id = "main_nav_bar" class="links-to-floor clearfix">
+                <li class="menu-tag nav-toggle-li"><%= link_to t("home.menu-one"), home_index_path, id: "current_link", class: "menu-text #{current_page?(home_index_path) ? "current" : nil }" %></li>
+                <li class="menu-tag nav-toggle-li"><%= link_to t("home.menu-two"), home_thebook_path, id: "current_link", class: "menu-text #{current_page?(home_thebook_path) ? "current" : nil }" %></li>
+                <li class="menu-tag nav-toggle-li"><%= link_to t("home.menu-three"), home_idea_path, id: "current_link", class: "menu-text #{current_page?(home_idea_path) ? "current" : nil }" %></li>
+                <li class="menu-tag nav-toggle-li"><%= link_to t("home.menu-four"), home_autor_path, id: "current_link", class: "menu-text #{current_page?(home_autor_path) ? "current" : nil }" %></li>
+                <li class="menu-tag nav-toggle-li"><%= link_to t("home.menu-five"), home_contacts_path, id: "current_link", class: "menu-text #{current_page?(home_contacts_path) ? "current" : nil }" %></li>
+              </ul>
+            <!-- </div> -->
+          </nav>
         </div>
         <div class = "header-right">
           <ul class="fb-en-ul fb-resp clearfix">
@@ -44,9 +34,10 @@
           </ul>
         </div>
       </div>
-      <div class="">
+      <div class = "logo-div">
         <%= render 'logo' %>
       </div>
     </div>
+
   </div>
 </header>

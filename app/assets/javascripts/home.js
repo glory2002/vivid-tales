@@ -1,7 +1,10 @@
+
 $(document).ready(function(){
-  $("#nav_bar_toggle").on("click", function(){
-    $("#main_nav_bar").toggleClass("open");
-    
+
+  $(document).on("click", "#nav_bar_toggle", function(){
+
+      $("#main_nav_bar").toggleClass('open');
 
   });
+
 });
