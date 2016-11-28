@@ -22,14 +22,14 @@
         </div>
         <div class = "header-right">
           <ul class="fb-en-ul fb-resp clearfix">
-            <li class="fb-en"><%= link_to "f", "https://www.facebook.com/pchelandia/", class: "f-button" %></li>
+            <li class="fb-en"><%= link_to "f", "https://www.facebook.com/pchelandia", class: "f-button" %></li>
             <li class="fb-en">
               <%
                 current_locale = I18n.locale
                 toggle_locale  = current_locale == :en ? 'bg' : 'en'
-                current_path   = request.path.sub(current_locale.to_s, toggle_locale)
+                current_path   = url_for(params.merge(locale: toggle_locale))
               %>
-              <%= link_to toggle_locale, "#{current_path}", class: "en-button" %>
+              <%= link_to toggle_locale,   "#{current_path}", class: "en-button" %>
             </li>
           </ul>
         </div>
