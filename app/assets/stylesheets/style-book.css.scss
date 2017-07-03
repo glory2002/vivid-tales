@@ -48,15 +48,15 @@ ul {
 }
 
 a {
-  color: black;
+  color: #020202;
   text-decoration: none;
 }
 
 .btn {
   display: inline-block;
   text-transform: uppercase;
-  color: black;
-  border: 3px solid black;
+  color: #020202;
+  border: 3px solid #020202;
   margin-top: 70px;
   font-size: 1em;
   font-weight: 800;
@@ -732,10 +732,10 @@ figcaption span {
 }
 
 figcaption p {
-  color: black;
+  color: #020202;
   font-family: Open Sans;
   font-size: 19px;
-  text-align: justify;
+  text-align: left;
   margin-top: 12px;
   line-height: 165%;
 }

@@ -79,7 +79,7 @@ body{
   margin: 5px;
   margin-top: 15px;
   border-style: solid;
-  border-color: black;
+  border-color: #020202;
   font-size: 23px;
   font-family: Arial;
   font-style: normal;
@@ -90,7 +90,7 @@ body{
 .f-button{
   display: block;
   list-style-type: none;
-  color: black;
+  color: #020202;
   text-align: center;
   padding: 1px 18px 2px 18px;
   cursor: pointer;
@@ -108,7 +108,7 @@ body{
 .en-button{
   display: block;
   list-style-type: none;
-  color: black;
+  color: #020202;
   text-align: center;
   padding: 1px 14px 2px 14px;
   cursor: pointer;
@@ -143,7 +143,7 @@ body{
 
 .menu-text{
   text-decoration: none;
-  color: black;
+  color: #020202;
   position: relative;
 }
 
@@ -172,7 +172,7 @@ footer {
 }
 
 .copyright-link {
-  color: black;
+  color: #020202;
   text-decoration: none;
 }
 
@@ -220,11 +220,11 @@ footer {
 .text-main{
   font-family: Open Sans;
   font-size: 19px;
-  color:black;
+  color:#020202;
   margin-top: 60px;
   padding: 0 20% 0 20%;
   line-height: 165%;
-  text-align: justify;
+  text-align: left;
 }
 
 .text-button{
@@ -293,7 +293,7 @@ footer {
       width: 100%;
       background: white;
       float: none;
-      color: black;
+      color: #020202;
     }
 
     .links-to-floor > li {
