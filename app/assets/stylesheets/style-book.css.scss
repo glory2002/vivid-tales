@@ -73,15 +73,27 @@ a {
   font-weight: 800;
 }
 
-.btn-2 {
-
-  margin-top: 15px;
-
+.order-btn{
+  margin-top: 60px;
+  text-align: center;
 }
 
-.btn-2:hover {
-  border-color: #fc4f00;
-  color: #fc4f00;
+.btn-2 {
+  background-color: #fc4f00;
+  color: white;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.btn-2:hover, .btn-2:focus  {
+  text-decoration: none;
+  border: 2px solid #fc4f00;
+  background-color: white;
+  color: #fc4f00
 }
 
 
